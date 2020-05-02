@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Menu from './Menu/Menu'
 
 function App() {
   return (
     <div className="App">
      <h2>My Portfolio</h2>
+     <Menu/>
     </div>
   );
 }
