@@ -5,6 +5,6 @@ export default function MenuButton ({isExpanded, onButtonClicked}) {
     return (
         <button
         onClick={onButtonClicked}
-        className="MenuButton">Menu{isExpanded}</button>
+        className="MenuButton">Menu{isExpanded ? "Yes": "no"}</button>
     );
 }
