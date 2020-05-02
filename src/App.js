@@ -5,7 +5,7 @@ import Menu from './Menu/Menu'
 function App() {
   return (
     <div className="App">
-     <h2>My Portfolio</h2>
+     <h2>V.V</h2>
      <Menu/>
     </div>
   );
