@@ -5,6 +5,7 @@ import aboutIcon from "./MenuIcons/aboutIcon.png";
 import contactIcon from "./MenuIcons/contactIcon.png";
 import eyeIcon from "./MenuIcons/eyeIcon.png";
 import settingsIcon from "./MenuIcons/settingsIcon.png";
+import MenuButton from "./MenuButton/MenuButton";
 
 export default class Menu extends Component {
   constructor() {
@@ -12,11 +13,16 @@ export default class Menu extends Component {
     this.state = { isExpanded: false };
   }
 
-  toggleButton() {}
+  toggleState() {
+      this.setState({isExpanded: !this.state.isExpanded})
+  }
 
   render() {
     return (
       <div className="Menu">
+        <MenuButton 
+        onButtonClicked={()=>this.toggleState()}
+        isExpanded={this.state.isExpanded}/>
         <div className="Menu-links">
           <div className="Menu-link">
             <img className="icon" src={homeIcon} alt="homeIcon" />
