@@ -55,7 +55,6 @@ display: flex;
     margin-top: -120px;
     width: 100%;
   }
-
   .icon {
     width: 23px;
     margin-left: 15px;
@@ -67,10 +66,9 @@ display: flex;
 
   .logo {
     font-size: 40px;
-    color:#B4F5F0;
+    color: #b4f5f0;
     z-index: 6;
     position: relative;
     margin-left: 15px;
-
   }
 }
