@@ -6,7 +6,7 @@ import HomePage from './HomePage/HomePage'
 function App() {
   return (
     <div className="App">
-      <div className="logo">B</div>
+      <div className="logo">&#120121;</div>
      <Menu/>
      <HomePage/>
     </div>
