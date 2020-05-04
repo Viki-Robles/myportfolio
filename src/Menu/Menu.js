@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Menu.css";
 import homeIcon from "./MenuIcons/homeIcon.png";
 import aboutIcon from "./MenuIcons/aboutIcon.png";
-import contactIcon from "./MenuIcons/contactIcon.png";
 import eyeIcon from "./MenuIcons/eyeIcon.png";
 import settingsIcon from "./MenuIcons/settingsIcon.png";
 import MenuButton from "./MenuButton/MenuButton";
