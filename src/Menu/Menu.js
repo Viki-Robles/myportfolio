@@ -40,6 +40,7 @@ export default class Menu extends Component {
             <img className="icon" src={contactIcon} alt="contactIcon" />
           </div>
         </div>
+       
       </div>
     );
   }

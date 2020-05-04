@@ -8,7 +8,7 @@ export default function HomePage() {
       <div className="homePage">
         <div className="bracket">&#123;</div>
         <h1>
-          Hi, <br />I am Vicky
+          Hi, <br />I am &#120121;icky
         </h1>
         <h2>your web developer &#9813;.</h2>
         <h4> Front End Developer</h4>
