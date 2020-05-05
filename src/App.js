@@ -5,6 +5,7 @@ import Menu from "./Menu/Menu";
 import Home from "./Home/Home";
 import About from './About/About';
 import ScrollMenu from './ScrollMenu/ScrollMenu';
+import { AnimatedSwitch } from "react-router-transition";
 
 class App extends Component {
   render() {
