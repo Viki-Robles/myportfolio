@@ -1,10 +1,16 @@
 @media (min-width: 600px) {
+  .homePage-container {
+    overflow:hidden;
+    position: relative;
+  }
+
   .homePage {
     z-index: 5;
     margin-left: 80px;
     margin-top: 5%;
     color: #051537;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+   
   }
 
   h1 {
@@ -71,10 +77,19 @@
   .homePage-logo {
     color: #b4f5f0;
     z-index: 6;
-    margin-left: 70%;
-    font-size: 400px;
+    font-size: 700px;
     position: absolute;
     transform: rotate(-23deg);
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    bottom:-120px;
+    right:5%;
+  
   }
 }
+
+
+/*if I want to add hover effect at the animation
+h1:hover span:nth-child{
+animation: animate 6s infinite;
+
+*/

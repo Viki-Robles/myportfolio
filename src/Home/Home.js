@@ -12,7 +12,7 @@ export default function Home() {
           <span>i</span>
           <span>,</span>
           <br />
-          <span>I'</span>
+          <span>I </span>
           <span>a</span>
           <span>m </span>
           <span> &#120121;</span>
@@ -24,7 +24,7 @@ export default function Home() {
         <h2>your web developer &#9813;.</h2>
         <h4>
           {" "}
-          Front End Developer based in London, who loves building Digital
+          Front End Developer, based in London, who loves building Digital
           Beauty.
         </h4>
         <button>Contact me</button>
