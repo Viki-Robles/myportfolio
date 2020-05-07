@@ -1,0 +1,117 @@
+@media (min-width: 600px) {
+  .sphere-container {
+    margin-top: 25%;
+    margin-left: 150px;
+    position: relative;
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+  .sphere-container-items {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  ul {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    display: block;
+    list-style-type: none;
+  }
+
+  li {
+    display: list-item;
+    text-align: inherit;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color:#041f60;
+  }
+
+  .sphere-items li a {
+    font-size: 30px;
+  }
+  p {
+    margin-left: 80px;
+    font-weight: 600;
+    color:#041f60;
+  }
+  .about {
+    margin-left: 80px;
+    display: flex;
+    color: #b4f5f0;
+    font-size: 60px;
+  }
+  .bracket {
+    color: #b4f5f0;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 80px;
+  }
+
+  .bracket.bracket-down {
+    margin-top: 80px;
+  }
+
+  .about-container {
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  h2 span:nth-child(0) {
+    animation: animate 6s infinite;
+    display: inline-block;
+  }
+  h2 span:nth-child(1) {
+    animation: animate 6s infinite;
+    display: inline-block;
+  }
+  h2 span:nth-child(2) {
+    animation: animate 6s infinite;
+    display: inline-block;
+  }
+  h2 span:nth-child(3) {
+    animation: animate 6s infinite;
+    display: inline-block;
+  }
+  h2 span:nth-child(4) {
+    animation: animate 6s infinite;
+    display: inline-block;
+  }
+  h2 span:nth-child(5) {
+    animation: animate 6s infinite;
+    display: inline-block;
+  }
+  h2 span:nth-child(6) {
+    animation: animate 6s infinite;
+    display: inline-block;
+  }
+  h2 span:nth-child(7) {
+    animation: animate 6s infinite;
+    display: inline-block;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    40% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-100px) rotate(180deg);
+    }
+    60% {
+      transform: translateY(0px) rotate(360deg);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
