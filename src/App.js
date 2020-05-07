@@ -6,7 +6,7 @@ import Home from "./Home/Home";
 import About from './About/About';
 import ScrollMenu from './ScrollMenu/ScrollMenu';
 import { AnimatedSwitch } from "react-router-transition";
-import Projects from './Projects/Projects';
+import ProjectsGallery from './Projects/ProjectsGallery';
 
 class App extends Component {
   render() {
@@ -18,7 +18,7 @@ class App extends Component {
           <div className="logo">&#120121;</div>
           <Route exact path='/' component={Home}/>
           <Route exact path='/about' component={About}/>
-          <Route exact path='/projects' component={Projects}/>
+          <Route exact path='/projects' component={ProjectsGallery}/>
         </div>
       </Router>
     );
