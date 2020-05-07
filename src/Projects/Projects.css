@@ -1,0 +1,8 @@
+@media(min-width:600px) {
+    .projects {
+        display: grid;
+        grid-template-columns:1fr;
+        grid-gap:40px;
+        margin-left:80px;  
+    }
+}
