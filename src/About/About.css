@@ -50,11 +50,11 @@
     color: #b4f5f0;
     font-size: 50px;
     font-weight: bold;
-    margin-left: 80px;
+    margin-left: 0px;
   }
 
   .bracket.bracket-down {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   .about-container {
