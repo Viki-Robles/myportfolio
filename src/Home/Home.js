@@ -21,7 +21,7 @@ export default function Home() {
           <span>k</span>
           <span>y</span>
         </h1>
-        <h2>your web developer &#9813;.</h2>
+        <h2>your web developer.</h2>
         <h4>
           {" "}
           Front End Developer, based in London, who loves building Digital
