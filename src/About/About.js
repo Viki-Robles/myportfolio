@@ -16,7 +16,7 @@ export default function About() {
             <span>o</span>
             <span>u</span>
             <span>t </span>
-            <span> m</span>
+            <span>m</span>
             <span>e</span>
           </h2>
           <p>

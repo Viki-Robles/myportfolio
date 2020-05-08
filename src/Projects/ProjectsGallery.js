@@ -10,14 +10,13 @@ export default function ProjectsGallery() {
       <Link to="/projects">
         <Menu />
         <div className="projects">
-          <h2>My Work</h2>
+         
           {getProjects().map(project => (
             <Projects
               key={project.id}
               id={project.id}
-              title={project.title}
-              description={project.description}
               picture={project.picture}
+              link={project.link}
             />
           ))}
         </div>

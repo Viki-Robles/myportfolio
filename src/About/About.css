@@ -45,6 +45,7 @@
     display: flex;
     color: #b4f5f0;
     font-size: 60px;
+    font-weight: 400;
   }
   .bracket {
     color: #b4f5f0;
@@ -63,7 +64,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
-
+/*
   h2 span:nth-child(0) {
     animation: animate 6s infinite;
     display: inline-block;
@@ -76,10 +77,14 @@
     animation: animate 6s infinite;
     display: inline-block;
   }
+  */
   h2 span:nth-child(3) {
-    animation: animate 6s infinite;
+    animation: animate 7s infinite;
     display: inline-block;
+    color:#041f60;
+    font-weight:600;
   }
+  /*
   h2 span:nth-child(4) {
     animation: animate 6s infinite;
     display: inline-block;
@@ -96,6 +101,7 @@
     animation: animate 6s infinite;
     display: inline-block;
   }
+  */
 
   @keyframes animate {
     0% {

@@ -46,6 +46,10 @@
   h2 {
     font-size: 40px;
   }
+  h4 {
+    line-height: 20px;
+    font-weight:545;
+  }
 
   button {
     padding: 10px 20px;

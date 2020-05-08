@@ -1,8 +1,23 @@
+
 @media(min-width:600px) {
-    .projects {
-        display: grid;
-        grid-template-columns:1fr;
-        grid-gap:40px;
-        margin-left:80px;  
-    }
+
+.projects {
+    display: flex;
+    margin:0;
+}
+.picture_icon {
+    opacity:0.6;
+    width:100%;
+    min-height:800px;
+}
+.projects-container {
+    margin-left:60px;
+}
+
+.projects-button {
+    position: absolute;
+    margin-left:40vh;
+    margin-top:-10vh;
+
+}
 }
