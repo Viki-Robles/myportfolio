@@ -8,7 +8,7 @@
 .picture_icon {
     opacity:0.6;
     width:100%;
-    min-height:800px;
+   height:100vh;
 }
 .projects-container {
     margin-left:60px;

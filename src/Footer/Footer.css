@@ -1,6 +1,6 @@
 @media(min-width:600px) {
     .footer {
-        margin-top:1150%;
+        margin-top:86vh;
         position: absolute;
         display: grid;
         grid-gap:20px;

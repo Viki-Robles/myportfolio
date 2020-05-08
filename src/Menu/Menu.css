@@ -41,7 +41,6 @@ display: flex;
     position: absolute;
     top: 0;
     z-index: 3;
-    min-height: 800px;
     background: #041f60;
   }
 
