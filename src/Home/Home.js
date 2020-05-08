@@ -5,7 +5,8 @@ import figma from '../About/images/figma.png';
 export default function Home(props) {
   return (
     <div className="homePage-container">
-      <div className="homePage-logo">{props.figma}</div>
+      <div className="homePage-logo">&#120121;
+      </div>
       <div className="homePage">
         <div className="bracket">&#123;</div>
         <h1>
@@ -34,3 +35,6 @@ export default function Home(props) {
     </div>
   );
 }
+
+
+/**&#120121; */
