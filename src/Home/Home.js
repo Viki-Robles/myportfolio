@@ -1,10 +1,11 @@
 import React from "react";
 import "./Home.css";
-
+import homepicture from '../Home/images/homepicture.png';
 export default function Home(props) {
   return (
     <div className="homePage-container">
-      <div className="homePage-logo">&#120121;
+      <div className="homePage-logo">
+        <img src={homepicture} alt="homepicture"/>
       </div>
       <div className="homePage">
         <div className="bracket">&#123;</div>

@@ -161,7 +161,10 @@ button:hover {
     box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
       7px 7px 20px 0 rgba(0, 0, 0, 0.2);
   }
-
+  .homepage-button {
+    padding:15px 30px;
+    font-size:15px;
+  }
   button:hover {
     box-shadow: inset -7px -7px 20px 0 rgb(176, 247, 246),
       inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
@@ -179,14 +182,18 @@ button:hover {
   }
   .homePage-logo {
     color: #b4f5f0;
-    z-index: 6;
-    font-size: 700px;
+    width:60vh;
     position: absolute;
-    transform: rotate(-23deg);
+    transform: rotate(-20deg);
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-    bottom:-120px;
-    right:5%;
-  
+    right:9%;
+  }
+
+  .homePage-logo img {
+    width: 100%;
+    margin-top:25vh;
+    border: 3px solid #b4f5f0;
+    border-radius:6px;
   }
 }
 
