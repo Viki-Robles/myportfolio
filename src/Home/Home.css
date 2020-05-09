@@ -1,9 +1,8 @@
-
 .homePage-container {
-  overflow:hidden;
+  overflow: hidden;
   position: relative;
-  margin-top:13vh;
-  z-index:2;
+  margin-top: 13vh;
+  z-index: 2;
 }
 
 .homePage {
@@ -11,23 +10,21 @@
   margin-top: 5%;
   color: #051537;
   text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-  z-index:3;
- 
+  z-index: 3;
 }
 
 img {
-  width:100%;
+  width: 100%;
 }
 
 .homePage-logo img {
-    z-index:1;
-    color: #b4f5f0;
-    position: absolute;
-    transform: rotate(-20deg);
-    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-    right:5vh;
-    width:20vh;
-
+  z-index: 1;
+  color: #b4f5f0;
+  position: absolute;
+  
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  right: 5vh;
+  width: 20vh;
 }
 h1 {
   font-size: 30px;
@@ -35,26 +32,26 @@ h1 {
 }
 
 h1 span:nth-child(8) {
-  color:#b4f5f0;
-  font-size:30px;
+  color: #b4f5f0;
+  font-size: 40px;
   animation: animate 6s infinite;
   display: inline-block;
 }
 
 @keyframes animate {
-  0%{
+  0% {
     transform: translateY(0px) rotate(0deg);
   }
-  40%{
+  40% {
     transform: translateY(0px) rotate(0deg);
   }
-  50%{
+  50% {
     transform: translateY(-100px) rotate(180deg);
   }
-  60%{
+  60% {
     transform: translateY(0px) rotate(360deg);
   }
-  100%{
+  100% {
     transform: translateY(0px);
   }
 }
@@ -64,8 +61,8 @@ h2 {
 }
 h4 {
   line-height: 20px;
-  font-weight:545;
-  font-size:10px;
+  font-weight: 545;
+  font-size: 12px;
 }
 
 button {
@@ -80,8 +77,8 @@ button {
     7px 7px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .homepage-button {
-  padding:15px 22px;
-  font-size:10px;
+  padding: 15px 22px;
+  font-size: 10px;
 }
 
 button:hover {
@@ -99,11 +96,12 @@ button:hover {
   margin-top: 50px;
   margin-bottom: 5vh;
 }
+
 @media (min-width: 600px) {
   .homePage-container {
-    overflow:hidden;
+    overflow: hidden;
     position: relative;
-    margin-top:5vh;
+    margin-top: 5vh;
   }
 
   .homePage {
@@ -112,7 +110,6 @@ button:hover {
     margin-top: 5%;
     color: #051537;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-   
   }
 
   h1 {
@@ -121,26 +118,26 @@ button:hover {
   }
 
   h1 span:nth-child(8) {
-    color:#b4f5f0;
-    font-size:80px;
+    color: #b4f5f0;
+    font-size: 80px;
     animation: animate 6s infinite;
     display: inline-block;
   }
 
   @keyframes animate {
-    0%{
+    0% {
       transform: translateY(0px) rotate(0deg);
     }
-    40%{
+    40% {
       transform: translateY(0px) rotate(0deg);
     }
-    50%{
+    50% {
       transform: translateY(-100px) rotate(180deg);
     }
-    60%{
+    60% {
       transform: translateY(0px) rotate(360deg);
     }
-    100%{
+    100% {
       transform: translateY(0px);
     }
   }
@@ -148,12 +145,11 @@ button:hover {
   h2 {
     font-size: 40px;
     line-height: 20px;
-
   }
   h4 {
     line-height: 30px;
-    font-weight:545;
-    font-size:15px;
+    font-weight: 545;
+    font-size: 15px;
   }
 
   button {
@@ -169,8 +165,8 @@ button:hover {
       7px 7px 20px 0 rgba(0, 0, 0, 0.2);
   }
   .homepage-button {
-    padding:15px 30px;
-    font-size:15px;
+    padding: 15px 30px;
+    font-size: 15px;
   }
   button:hover {
     box-shadow: inset -7px -7px 20px 0 rgb(176, 247, 246),
@@ -189,21 +185,20 @@ button:hover {
   }
   .homePage-logo {
     color: #b4f5f0;
-    width:50vh;
+    width: 50vh;
     position: absolute;
-    transform: rotate(-10deg);
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-    right:9%;
+    right: 9%;
   }
 
   .homePage-logo img {
     width: 100%;
-    margin-top:10vh;
+    margin-top: 10vh;
     border: 6px solid #b4f5f0;
-    border-radius:6px;
+    border-radius: 6px;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.4);
   }
 }
-
 
 /*if I want to add hover effect at the animation
 h1:hover span:nth-child{
