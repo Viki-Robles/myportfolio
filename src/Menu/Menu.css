@@ -52,7 +52,6 @@ display: flex;
   .Menu-links {
     display: grid;
     grid-gap: 40px;
-    text-align: center;
     position: relative;
     height: 210px;
     top: 50%;
@@ -74,5 +73,50 @@ display: flex;
     z-index: 6;
     position: absolute;
     margin-left: 15px;
+  }
+
+  .Menu-link .home {
+    display: none;
+  }
+  .Menu-link:hover .home {
+    display: block;
+    margin-left: 1vh;
+    font-weight: 150;
+  }
+  .Menu-link:hover img {
+    display: none;
+  }
+
+  .home,
+  .aboutpage,
+  .skills,
+  .projects {
+    color: #b4f5f0;
+  }
+
+  .Menu-link .aboutpage {
+    display: none;
+  }
+  .Menu-link:hover .aboutpage {
+    display: block;
+    margin-left: 1vh;
+    font-weight: 150;
+  }
+
+  .Menu-link .projects {
+    display: none;
+  }
+  .Menu-link:hover .projects {
+    display: block;
+    margin-left: 1vh;
+    font-weight: 150;
+  }
+
+  .Menu-link .skills {
+    display: none;
+  }
+  .Menu-link:hover .skills {
+    display: block;
+    font-weight:150;
   }
 }
