@@ -23,16 +23,20 @@ display: flex;
   background: #041f60;
   width: 100%;
   position: relative;
-  height:5vh;
+  height: 6vh;
 }
 
 .MenuButton {
-  margin:0;
-  padding:2px;
+  margin: 0;
+  padding: 2px;
 }
 
 .icon {
   width: 23px;
+}
+
+.Menu-link {
+  margin-top: 1vh;
 }
 
 @media (min-width: 600px) {

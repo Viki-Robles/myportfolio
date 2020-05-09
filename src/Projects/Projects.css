@@ -1,23 +1,29 @@
-
-@media(min-width:600px) {
-
-.projects {
-    display: flex;
-    margin:0;
-}
 .picture_icon {
-    opacity:0.6;
-    width:100%;
-   height:100vh;
-}
-.projects-container {
-    margin-left:60px;
+  width: 100%;
+  opacity: 0.6;
 }
 
 .projects-button {
-    position: absolute;
-    margin-left:40vh;
-    margin-top:-10vh;
-
+  display: none;
 }
+
+@media (min-width: 600px) {
+  .projects {
+    display: flex;
+    margin: 0;
+  }
+  .picture_icon {
+    opacity: 0.6;
+    width: 100%;
+    height: 100vh;
+  }
+  .projects-container {
+    margin-left: 60px;
+  }
+
+  .projects-button {
+    position: absolute;
+    margin-left: 40vh;
+    margin-top: -10vh;
+  }
 }

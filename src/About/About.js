@@ -20,10 +20,9 @@ export default function About() {
             <span>e</span>
           </h2>
           <p>
-            I am a web developer with passion for front-end development and design.
-            
-  
-            <br/>
+            I am a web developer with passion for front-end development and
+            design.
+            <br />
           </p>
           <div className="bracket bracket-down">&#125;</div>
         </div>
@@ -45,7 +44,7 @@ export default function About() {
               <a>CSS</a>
             </li>
             <li className="sphere-item">
-              <a>Mobile Design</a>n
+              <a>Mobile Design</a>
             </li>
             <li className="sphere-item">
               <a>UI</a>

@@ -10,8 +10,8 @@ export default function ProjectsGallery() {
       <Link to="/projects">
         <Menu />
         <div className="projects">
-         
-          {getProjects().map(project => (
+          {
+            getProjects().map(project => (
             <Projects
               key={project.id}
               id={project.id}
