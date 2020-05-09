@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import figma from '../About/images/figma.png';
 
 export default function Home(props) {
   return (
@@ -29,7 +28,7 @@ export default function Home(props) {
           Front End Developer, based in London, who loves building Digital
           Beauty.
         </h4>
-        <button>Contact me</button>
+        <button className="homepage-button">Contact me</button>
         <div className="bracket bracket-down">&#125;</div>
       </div>
     </div>

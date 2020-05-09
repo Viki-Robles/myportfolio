@@ -23,11 +23,12 @@ display: flex;
   background: #041f60;
   width: 100%;
   position: relative;
+  height:5vh;
 }
 
 .MenuButton {
-  display: flex;
-  justify-content: flex-end;
+  margin:0;
+  padding:2px;
 }
 
 .icon {
