@@ -83,10 +83,15 @@ a {
     display: inline-block;
     color: #041f60;
     font-weight: 600;
+    animation: animate 6s infinite;
+
   }
   
+  .about {
+    margin-top: 30%;
+  }
 
-/*
+
   @keyframes animate {
     0% {
       transform: translateY(0px) rotate(0deg);
@@ -104,9 +109,8 @@ a {
       transform: translateY(0px);
     }
   }
-      animation: animate 6s infinite;
 
-  */
+
 
   .paper-container {
     position: absolute;
@@ -116,8 +120,8 @@ a {
     transform-style: preserve-3d;
     border: 3px solid #b4f5f0;
     background:#b4f5f0;
-    left: 50%;
-    top:30%;
+    left: 60%;
+    top:40%;
     border-radius:4px;
 
   }
@@ -138,7 +142,7 @@ a {
     display: block;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, #b4f5f0,#87f9da,#74f9b0);
+    background: linear-gradient(0deg, #b9f5f0,#b6ebdd,#ffff);
   }
   .paper-container div span:nth-child(1) {
     transform: rotateX(0deg);
