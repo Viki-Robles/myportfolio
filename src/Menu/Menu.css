@@ -39,6 +39,51 @@ display: flex;
   margin-top: 1vh;
 }
 
+.Menu-link .home {
+  display: none;
+}
+.Menu-link:hover .home {
+  display: block;
+  margin-left: 1vh;
+  font-weight: 150;
+}
+.Menu-link:hover img {
+  display: none;
+}
+
+.home,
+.aboutpage,
+.skills,
+.projects {
+  color: #b4f5f0;
+}
+
+.Menu-link .aboutpage {
+  display: none;
+}
+.Menu-link:hover .aboutpage {
+  display: block;
+  margin-left: 1vh;
+  font-weight: 150;
+}
+
+.Menu-link .projects {
+  display: none;
+}
+.Menu-link:hover .projects {
+  display: block;
+  margin-left: 1vh;
+  font-weight: 150;
+}
+
+.Menu-link .skills {
+  display: none;
+}
+.Menu-link:hover .skills {
+  display: block;
+  font-weight:150;
+}
+
 @media (min-width: 600px) {
   .Menu {
     width: 60px;
@@ -58,6 +103,7 @@ display: flex;
     margin-top: -120px;
     width: 100%;
   }
+  
   .icon {
     width: 23px;
     margin-left: 15px;
@@ -73,6 +119,7 @@ display: flex;
     z-index: 6;
     position: absolute;
     margin-left: 15px;
+    display: block;
   }
 
   .Menu-link .home {
@@ -108,7 +155,7 @@ display: flex;
   }
   .Menu-link:hover .projects {
     display: block;
-    margin-left: 1vh;
+  
     font-weight: 150;
   }
 

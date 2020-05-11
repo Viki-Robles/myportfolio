@@ -1,10 +1,15 @@
 body {
   margin: 0;
   font-family:'Roboto Mono', monospace;
-  background-image: linear-gradient(to right, #ffffff, #f8fbff, #ebf9ff, #d9f8ff, #c7f7ff, #c7f7ff, #c7f7ff, #c7f7ff, #d9f8ff, #ebf9ff, #f8fbff, #ffffff);
+  background-color:white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*
+  background-image: linear-gradient(to right, #ffffff, #f8fbff, #ebf9ff, #d9f8ff, #c7f7ff, #c7f7ff, #c7f7ff, #c7f7ff, #d9f8ff, #ebf9ff, #f8fbff, #ffffff);
+
+*/
