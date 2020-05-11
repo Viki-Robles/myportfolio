@@ -133,7 +133,7 @@ a {
     top: 0;
     left:0;
     transform-style: preserve-3d;
-    animation: animate 5s linear infinite;
+    animation: moving 5s linear infinite;
   }
   .paper-container div span {
     position: absolute;
@@ -161,7 +161,7 @@ a {
 
   }
 
-  @keyframes animate {
+  @keyframes moving {
     0% {
       transform: perspective(1000px) rotateX(0deg);
 
