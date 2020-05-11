@@ -26,38 +26,52 @@ export default function About() {
           </p>
           <div className="bracket bracket-down">&#125;</div>
         </div>
-        <div className="sphere-container">
-          <ul className="sphere-items">
-            <li className="sphere-item">
-              <a>HMTL5</a>
-            </li>
-            <li className="sphere-item">
-              <a>Testing</a>
-            </li>
-            <li className="sphere-item">
-              <a>JavaScript</a>
-            </li>
-            <li className="sphere-item">
-              <a>ReactJs</a>
-            </li>
-            <li className="sphere-item">
-              <a>CSS</a>
-            </li>
-            <li className="sphere-item">
-              <a>Mobile Design</a>
-            </li>
-            <li className="sphere-item">
-              <a>UI</a>
-            </li>
-            <li className="sphere-item">
-              <a>NodeJS</a>
-              <li className="sphere-item">
-                <a>MongoDB</a>
-              </li>
-            </li>
-          </ul>
+      <div className="paper-container">
+          <div>
+            <span><h4>CSS</h4></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </Link>
   );
 }
+
+/**
+ * 
+ * <div className="sphere-container">
+ <ul className="sphere-items">
+            <li className="sphere-item">
+              <a>HMTL5</a>
+              </li>
+              <li className="sphere-item">
+                <a>Testing</a>
+              </li>
+              <li className="sphere-item">
+                <a>JavaScript</a>
+              </li>
+              <li className="sphere-item">
+                <a>ReactJs</a>
+              </li>
+              <li className="sphere-item">
+                <a>CSS</a>
+              </li>
+              <li className="sphere-item">
+                <a>Mobile Design</a>
+              </li>
+              <li className="sphere-item">
+                <a>UI</a>
+              </li>
+              <li className="sphere-item">
+                <a>NodeJS</a>
+                <li className="sphere-item">
+                  <a>MongoDB</a>
+                </li>
+              </li>
+          </ul>
+          </div>
+ */

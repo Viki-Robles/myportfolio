@@ -21,10 +21,6 @@ export default class Menu extends Component {
   render() {
     return (
       <div className="Menu">
-        <MenuButton
-          onButtonClicked={() => this.toggleState()}
-          isExpanded={this.state.isExpanded}
-        />
         <div className="Menu-links">
           <div className="Menu-link">
             <Link to="/">
@@ -54,3 +50,10 @@ export default class Menu extends Component {
     );
   }
 }
+
+/**
+ *       <MenuButton
+          onButtonClicked={() => this.toggleState()}
+          isExpanded={this.state.isExpanded}
+        />
+ */
