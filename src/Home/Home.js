@@ -3,6 +3,7 @@ import "./Home.css";
 import homepicture from '../Home/images/homepicture.png';
 export default function Home(props) {
   return (
+    <>
     <div className="homePage-container">
       <div className="homePage-logo">
         <img src={homepicture} alt="homepicture"/>
@@ -33,6 +34,7 @@ export default function Home(props) {
         <div className="bracket bracket-down">&#125;</div>
       </div>
     </div>
+    </>
   );
 }
 

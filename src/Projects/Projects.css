@@ -26,4 +26,18 @@
     margin-left: 40vh;
     margin-top: -10vh;
   }
+
+  .picture .details {
+   position: absolute;
+   bottom:50%;
+   font-size:14px;
+   display:none;
+  
+  }
+  .picture .details:hover {
+  position: absolute;
+   bottom:20%;
+   display: block;
+  }
+  
 }

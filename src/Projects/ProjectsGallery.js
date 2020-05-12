@@ -17,6 +17,7 @@ export default function ProjectsGallery() {
               id={project.id}
               picture={project.picture}
               link={project.link}
+              details = {project.details}
             />
           ))}
         </div>
