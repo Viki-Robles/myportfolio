@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Projects.css";
-const teams =(strings) => {
+
  
 export default function Projects(props) {
   return (
@@ -12,7 +12,11 @@ export default function Projects(props) {
             alt="picture_icon"
             className="picture_icon"
           />
-          <div className="details">{props.details}</div>
+          
+          <div className="details">
+          <div className="content">
+            <p>{props.details}</p></div>
+          </div>
         </div>
       </div>
       <button className="projects-button" link={props.link}>
@@ -21,4 +25,4 @@ export default function Projects(props) {
     </>
   );
   }
-}
+

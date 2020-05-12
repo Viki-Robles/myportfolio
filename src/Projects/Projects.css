@@ -13,31 +13,39 @@
     margin: 0;
   }
   .picture_icon {
-    opacity: 0.6;
-    width: 100%;
+    opacity: 0.8;
+    width: 80%;
     height: 100vh;
   }
-  .projects-container {
-    margin-left: 60px;
-  }
-
-  .projects-button {
-    position: absolute;
-    margin-left: 40vh;
-    margin-top: -10vh;
-  }
-
-  .picture .details {
-   position: absolute;
-   bottom:50%;
-   font-size:14px;
-   display:none;
   
-  }
-  .picture .details:hover {
+.projects-container .picture .picture_icon {
+  position: relative;
+  overflow: hidden;
+  margin-left: 60px;
+}
+
+.projects-container .picture .picture_icon {
+  max-width: 100%;
+  transition: transform 2s;
+}
+
+.projects-container .picture:hover .picture_icon {
+  transform: scale(1.2);
+}
+  
+.projects-container .picture .details {
   position: absolute;
-   bottom:20%;
-   display: block;
-  }
+  top: 150px;
+  margin-left: 35vh;
   
+}
+
+.projects-container .picture .details .content {
+  position: absolute;
+  color:white;
+  display: none;
+}
+.projects-container .picture .details:hover .content {
+  display: block;
+}
 }
