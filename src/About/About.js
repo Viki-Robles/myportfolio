@@ -11,13 +11,13 @@ export default function About() {
         <div className="about-container-items">
           <div className="bracket">&#123;</div>
           <h2 className="about">
-            <span>A</span>
-            <span>b</span>
+            <span>W</span>
+            <span>h</span>
             <span>o</span>
-            <span>u</span>
-            <span>t </span>
+            <span>I</span>
+            <span>a </span>
             <span>m</span>
-            <span>e</span>
+            <span>?</span>
           </h2>
           <p>
             I am a web developer with passion for front-end development and
@@ -28,7 +28,7 @@ export default function About() {
         </div>
       <div className="paper-container">
           <div>
-            <span><h4>CSS</h4></span>
+            <span></span>
             <span></span>
             <span></span>
             <span></span>

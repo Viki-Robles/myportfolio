@@ -79,7 +79,7 @@ a {
     grid-template-columns: 1fr 2fr;
   }
 
-  h2 span:nth-child(3) {
+  h2 span:nth-child(7) {
     display: inline-block;
     color: #041f60;
     font-weight: 600;
@@ -110,7 +110,7 @@ a {
     }
   }
 
-
+/*
 
   .paper-container {
     position: absolute;
@@ -171,6 +171,8 @@ a {
 
     }
   }
+
+  */
 }
 
 
