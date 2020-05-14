@@ -30,11 +30,15 @@ h1 {
   font-weight: 800;
 }
 
-h1 span:nth-child(8) {
+h1 span:nth-child(7) {
   color: #b4f5f0;
   font-size: 40px;
   animation: animate 6s infinite;
   display: inline-block;
+}
+
+h1 span:nth-child(6) {
+  margin-right: 35px;
 }
 
 @keyframes animate {
@@ -65,24 +69,18 @@ h4 {
 }
 
 button {
+  padding: 10px 20px;
   border-radius: 10px;
-  background-color: #b4f5f0;
-  color: #041f60;
+  background-color: #222;
+  color: #b4f5f0;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 300;
   border-color: #b4f5f0;
   margin-top: 40px;
-  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
-    7px 7px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .homepage-button {
   padding: 15px 22px;
   font-size: 10px;
-}
-
-button:hover {
-  box-shadow: inset -7px -7px 20px 0 rgb(176, 247, 246),
-    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .bracket {
@@ -107,22 +105,25 @@ button:hover {
     z-index: 5;
     margin-left: 80px;
     margin-top: 5%;
-    color: #051537;
+    color: white;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   }
 
   h1 {
     font-size: 60px;
-    font-weight: 400;
+    font-weight: 300;
   }
 
-  h1 span:nth-child(8) {
+  h1 span:nth-child(7) {
     color: #b4f5f0;
     font-size: 80px;
     animation: animate 6s infinite;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 300;
+  }
 
+  h1 span:nth-child(6) {
+    margin-right: 35px;
   }
 
   @keyframes animate {
@@ -146,44 +147,44 @@ button:hover {
   h2 {
     font-size: 40px;
     line-height: 20px;
-    font-weight: 400;
+    font-weight: 300;
   }
   h4 {
     line-height: 30px;
     font-weight: 545;
     font-size: 15px;
+    color: #8d8d8d;
   }
 
   button {
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: #b4f5f0;
-    color: #041f60;
+    background-color: #222;
+    color: #b4f5f0;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 300;
     border-color: #b4f5f0;
     margin-top: 40px;
-    box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
-      7px 7px 20px 0 rgba(0, 0, 0, 0.2);
   }
   .homepage-button {
     padding: 15px 30px;
     font-size: 15px;
   }
   button:hover {
-    box-shadow: inset -7px -7px 20px 0 rgb(176, 247, 246),
+    box-shadow: inset -7px -7px 20px 0 rgb(58, 60, 60),
       inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
   }
 
   .bracket {
     color: #b4f5f0;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 70px;
+    font-weight: 200;
   }
 
   .bracket.bracket-down {
     margin-top: 50px;
     margin-bottom: 5vh;
+    font-weight: 200;
   }
   .homePage-logo {
     color: #b4f5f0;
@@ -198,9 +199,8 @@ button:hover {
     margin-top: 10vh;
     border: 6px solid #b4f5f0;
     border-radius: 6px;
-    box-shadow:0 5px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   }
-
 }
 
 /*if I want to add hover effect at the animation

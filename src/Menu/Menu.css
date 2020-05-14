@@ -20,7 +20,7 @@ display: flex;
 .Menu-links {
   display: flex;
   justify-content: space-between;
-  background: #041f60;
+  background: #181818;
   width: 100%;
   position: relative;
   height: 6vh;
@@ -95,7 +95,7 @@ display: flex;
     position: absolute;
     top: 0;
     z-index: 3;
-    background: #041f60;
+    background: #181818;
   }
 
   .Menu-links {

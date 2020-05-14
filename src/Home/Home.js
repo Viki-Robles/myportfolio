@@ -15,16 +15,15 @@ export default function Home(props) {
           <span>i</span>
           <span>,</span>
           <br />
-          <span>I </span>
-          <span>a</span>
-          <span>m </span>
+          <span>I'</span>
+          <span>m</span>
           <span> &#120121;</span>
           <span>i</span>
           <span>c</span>
           <span>k</span>
           <span>y</span>
         </h1>
-        <h2>your web developer.</h2>
+        <h2>web developer.</h2>
         <h4>
           {" "}
           Front End Developer, based in London, who loves building Digital
