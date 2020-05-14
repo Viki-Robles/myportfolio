@@ -8,8 +8,6 @@
 .homePage {
   margin-left: 2vh;
   margin-top: 5%;
-  color: #051537;
-  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   z-index: 3;
 }
 
@@ -19,9 +17,7 @@ img {
 
 .homePage-logo img {
   z-index: 1;
-  border: 3px solid #b4f5f0;
   position: absolute;
-  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   right: 1vh;
   width: 20vh;
 }
@@ -192,19 +188,16 @@ button {
     font-weight: 200;
   }
   .homePage-logo {
-    color: #b4f5f0;
     width: 50vh;
     position: absolute;
-    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     right: 9%;
+    border-radius:6px solid #222;
+
   }
 
   .homePage-logo img {
     width: 100%;
-    margin-top: 10vh;
-    border: 6px solid #b4f5f0;
-    border-radius: 6px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+   
   }
 }
 
