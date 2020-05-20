@@ -7,7 +7,6 @@ import settingsIcon from "./MenuIcons/settingsIcon.png";
 import MenuButton from "./MenuButton/MenuButton";
 import { Link } from "react-router-dom";
 import Footer from '../Footer/Footer';
-import logo from '../Home/images/logo.png';
 
 
 export default class Menu extends Component {
@@ -26,7 +25,7 @@ export default class Menu extends Component {
         <div className="Menu-links">
           <div className="Menu-link">
             <Link to="/">
-              <img className="icon" src={logo} alt="homeIcon" />
+              <img className="icon" src={homeIcon} alt="homeIcon" />
               <div className="home">Home</div>
             </Link>
           </div>
@@ -52,10 +51,3 @@ export default class Menu extends Component {
     );
   }
 }
-
-/**
- *       <MenuButton
-          onButtonClicked={() => this.toggleState()}
-          isExpanded={this.state.isExpanded}
-        />
- */
