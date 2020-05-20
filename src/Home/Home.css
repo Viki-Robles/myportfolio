@@ -1,13 +1,11 @@
 .homePage-container {
   overflow: hidden;
   position: relative;
-  margin-top: 13vh;
   z-index: 2;
 }
 
 .homePage {
   margin-left: 2vh;
-  margin-top: 5%;
   z-index: 3;
 }
 
@@ -94,13 +92,11 @@ button {
   .homePage-container {
     overflow: hidden;
     position: relative;
-    margin-top: 5vh;
   }
 
   .homePage {
     z-index: 5;
     margin-left: 80px;
-    margin-top: 5%;
     color: white;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   }
