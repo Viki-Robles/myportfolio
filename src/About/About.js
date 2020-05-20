@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Menu from "../Menu/Menu";
 import "./About.css";
+import Toolbox from '../About/images/Toolbox.svg';
 
 export default function About() {
   return (
@@ -28,12 +29,7 @@ export default function About() {
         </div>
       <div className="paper-container">
           <div>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+            <img src={Toolbox}/>
           </div>
         </div>
       </div>
