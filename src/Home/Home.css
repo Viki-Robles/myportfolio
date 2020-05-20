@@ -90,11 +90,6 @@ button {
 
 }
 
-.bracket.bracket-down {
-  margin-top: 40px;
-  margin-bottom: 5vh;
-}
-
 @media (min-width: 600px) {
   .homePage-container {
     overflow: hidden;
@@ -183,8 +178,6 @@ button {
   }
 
   .bracket.bracket-down {
-    margin-top: 50px;
-    margin-bottom: 5vh;
     font-weight: 200;
   }
   .homePage-logo {
