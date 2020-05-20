@@ -16,7 +16,7 @@ class App extends Component {
         <ScrollMenu />
         <div className="App">
           <Route exact path="/" component={Menu} />
-          <div className="logo"><img src={logo}/></div>
+          <div className="logo">&#120121;</div>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={ProjectsGallery} />
