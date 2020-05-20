@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import homepicture from '../Home/images/homepicture.png';
+
 export default function Home(props) {
   return (
     <>
