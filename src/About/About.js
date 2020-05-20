@@ -27,8 +27,8 @@ export default function About() {
           </p>
           <div className="bracket bracket-down">&#125;</div>
         </div>
-      <div className="paper-container">
-          <div>
+      <div className="about-container-box">
+          <div className="about-container-image">
             <img src={Toolbox}/>
           </div>
         </div>
