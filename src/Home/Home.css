@@ -2,6 +2,7 @@
   overflow: hidden;
   position: relative;
   z-index: 2;
+  margin-top: 12vh;
 }
 
 .homePage {
@@ -88,10 +89,15 @@ button {
 
 }
 
+.bracket.bracket-down {
+  margin-top:5vh;
+}
+
 @media (min-width: 600px) {
   .homePage-container {
     overflow: hidden;
     position: relative;
+    margin-top: 12vh;
   }
 
   .homePage {
