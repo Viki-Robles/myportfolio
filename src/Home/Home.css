@@ -86,7 +86,6 @@ h4 {
 
 @media (min-width: 600px) {
   .homePage-container {
-    overflow: hidden;
     position: relative;
     margin-top: 12vh;
   }
