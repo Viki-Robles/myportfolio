@@ -2,37 +2,35 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Menu from "../Menu/Menu";
 import "./About.css";
-import Toolbox from '../About/images/Toolbox.svg';
 
 export default function About() {
   return (
     <Link to="/about">
       <Menu />
+      <span className="tags tags-top">&lt;body&gt;</span>
       <div className="about-container">
         <div className="about-container-items">
-          <div className="bracket">&#123;</div>
           <h2 className="about">
-            <span>W</span>
-            <span>h</span>
+            <span>A</span>
+            <span>b</span>
             <span>o</span>
-            <span>I</span>
-            <span>a </span>
+            <span>u</span>
+            <span>t</span>
             <span>m</span>
-            <span>?</span>
+            <span>e</span>
           </h2>
           <p>
             I am a web developer with passion for front-end development and
             design.
             <br />
           </p>
-          <div className="bracket bracket-down">&#125;</div>
         </div>
       <div className="about-container-box">
           <div className="about-container-image">
-            <img src={Toolbox}/>
           </div>
         </div>
       </div>
+      <span className="tags tags-bottom">&lt;&#47;body&gt;</span>
     </Link>
   );
 }

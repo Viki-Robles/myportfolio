@@ -28,7 +28,7 @@ display: flex;
   background: #181818;
   width: 100%;
   position: relative;
-  height: 6vh;
+  height: 8vh;
 }
 
 .MenuButton {
@@ -38,12 +38,15 @@ display: flex;
   position: absolute;
 }
 
+.MenuButton img{
+  width: 5.3vh;
+}
 .icon {
   width: 23px;
 }
 
 .Menu-link {
- margin:6px;
+ margin: 10px;
 }
 
 .Menu-link .home {
@@ -117,6 +120,10 @@ display: flex;
     margin-left:-5px;
   }
   
+  .Menu-link {
+    margin: 5px;
+   }
+
   .icon {
     width: 23px;
     margin-left: 15px;
@@ -142,7 +149,7 @@ display: flex;
   .Menu-link:hover .home {
     display: block;
     margin-left: 1vh;
-    font-weight: 150;
+    font-size: 14px;
   }
   .Menu-link:hover img {
     display: none;
@@ -160,8 +167,8 @@ display: flex;
   }
   .Menu-link:hover .aboutpage {
     display: block;
-    margin-left: 1vh;
     font-weight: 150;
+    font-size: 14px;
   }
 
   .Menu-link .projects {
@@ -169,7 +176,7 @@ display: flex;
   }
   .Menu-link:hover .projects {
     display: block;
-  
+    font-size: 14px;
     font-weight: 150;
   }
 
@@ -179,5 +186,6 @@ display: flex;
   .Menu-link:hover .skills {
     display: block;
     font-weight:150;
+    font-size: 14px;
   }
 }

@@ -8,6 +8,6 @@ export default function MenuButton ({isExpanded, onButtonClicked}) {
         onClick={onButtonClicked}
         className="MenuButton">
         <img src={menulogo} alt="menulogo"/>
-        {isExpanded ? "Yes": "no"}</button>
+        {isExpanded}</button>
     );
 }

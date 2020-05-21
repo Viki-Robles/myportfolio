@@ -1,8 +1,7 @@
 .homePage-container {
-  overflow: hidden;
   position: relative;
   z-index: 2;
-  margin-top: 12vh;
+  margin-top: 15vh;
 }
 
 .homePage {
@@ -19,9 +18,10 @@ img {
   position: absolute;
   right: 1vh;
   width: 20vh;
+  margin-top: -5vh;
 }
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 200;
   color:white;
 }
@@ -56,7 +56,7 @@ h1 span:nth-child(6) {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;
   color:white;
   font-weight: 200;
 }
@@ -70,23 +70,18 @@ h4 {
 
 .homepage-button {
   padding: 15px 22px;
-  border-radius: 10px;
   background-color: #222;
   color: #b4f5f0;
   font-size: 10px;
   font-weight: 300;
   border-color: #b4f5f0;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 .bracket {
-  color: #b4f5f0;
-  font-size: 40px;
+  display: none;
 
-}
-
-.bracket.bracket-down {
-  margin-top:5vh;
 }
 
 @media (min-width: 600px) {
@@ -152,7 +147,6 @@ h4 {
 
   .homepage-button {
     padding: 15px 30px;
-    border-radius: 10px;
     background-color: #222;
     color: #b4f5f0;
     font-size: 15px;

@@ -15,21 +15,31 @@ a {
   font-weight: 600;
   color: #041f60;
 }
+
+.about-container{
+  margin-top: 15vh;
+}
+
+.about {
+    margin-left: 10px;
+    display: flex;
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.about span:nth-child(5) {
+  margin-right: 8px;
+}
+
+.tags {
+  color: #515152;
+  margin-left: 4vh;
+  font-size: 15px;
+  font-family: 'La Belle Aurore',cursive;
+}
+
 @media (min-width: 600px) {
-  .sphere-container {
-    margin-top: 25%;
-    margin-left: 150px;
-    position: relative;
-    display: block;
-    width: 80%;
-    height: auto;
-  }
-  .sphere-container-items {
-    position: relative;
-    margin: 0;
-    width: 100%;
-    vertical-align: middle;
-  }
 
   ul {
     box-sizing: border-box;
@@ -52,16 +62,23 @@ a {
   
   p {
     margin-left: 80px;
-    font-weight: 600;
-    color: #041f60;
+    font-weight: 300;
+    color: white;
   }
   .about {
     margin-left: 80px;
     display: flex;
-    color: #b4f5f0;
+    color: #B4F5F0;
     font-size: 60px;
     font-weight: 400;
+    position: relative;
+    margin-bottom: 40px;
   }
+
+  .about span:nth-child(5) {
+    margin-right: 15px;
+  }
+
   .bracket {
     color: #b4f5f0;
     font-size: 50px;
@@ -78,20 +95,21 @@ a {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
-
-  h2 span:nth-child(7) {
-    display: inline-block;
-    color: #041f60;
-    font-weight: 600;
-    animation: animate 6s infinite;
-
-  }
   
   .about {
-    margin-top: 30%;
+    margin-top: 15vh;;
   }
  
+.tags {
+    color: #515152;
+    margin-left: 10vh;
+    font-size: 18px;
+    font-family: 'La Belle Aurore',cursive;
+}
 
+.tags.tags-top {
+  margin-top: 20px;
+}
   @keyframes animate {
     0% {
       transform: translateY(0px) rotate(0deg);

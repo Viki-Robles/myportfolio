@@ -6,6 +6,7 @@ export default function Home(props) {
   return (
     <>
     <div className="homePage-container">
+    <span className="tags tags-top">&lt;body&gt;</span>
       <div className="homePage-logo">
         <img src={homepicture} alt="homepicture"/>
       </div>
@@ -34,6 +35,7 @@ export default function Home(props) {
         <div className="bracket bracket-down">&#125;</div>
       </div>
     </div>
+    <span className="tags tags-bottom">&lt;&#47;body&gt;</span>
     </>
   );
 }
