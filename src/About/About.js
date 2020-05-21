@@ -20,9 +20,8 @@ export default function About() {
             <span>e</span>
           </h2>
           <p>
-            I am a web developer with passion for front-end development and
-            design.
-            <br />
+             I'am Vicky Vasilopoulou, front-end developer and i have turned my dream into a career.
+             Fan of squash, TV series 
           </p>
         </div>
       <div className="about-container-box">
