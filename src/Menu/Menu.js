@@ -20,9 +20,12 @@ export default class Menu extends Component {
   }
 
   render() {
+    let isExpanded = this.state.isExpanded;
     return (
       <div className="Menu">
-        <div className="Menu-links">
+        <MenuButton onButtonClicked={() => this.toggleState()}
+        isExpanded={isExpanded}/>
+        <div className={`Menu-links ${this.state.isExpanded ? "is-expanded": ""}`}>
           <div className="Menu-link">
             <Link to="/">
               <img className="icon" src={homeIcon} alt="homeIcon" />

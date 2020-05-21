@@ -1,10 +1,13 @@
 import React from 'react';
 import "../Menu.css";
+import menulogo from '../MenuIcons/menulogo.png';
 
 export default function MenuButton ({isExpanded, onButtonClicked}) {
     return (
         <button
         onClick={onButtonClicked}
-        className="MenuButton">Menu{isExpanded ? "Yes": "no"}</button>
+        className="MenuButton">
+        <img src={menulogo} alt="menulogo"/>
+        {isExpanded ? "Yes": "no"}</button>
     );
 }

@@ -18,6 +18,11 @@ display: flex;
 }
 
 .Menu-links {
+  display: none;
+  
+}
+
+.Menu-links.is-expanded {
   display: flex;
   justify-content: space-between;
   background: #181818;
@@ -27,8 +32,10 @@ display: flex;
 }
 
 .MenuButton {
-  margin: 0;
+  margin-top: 8px;
+  margin-left: 5px;
   padding: 2px;
+  position: absolute;
 }
 
 .icon {
@@ -86,6 +93,7 @@ display: flex;
 
 .logo {
  display: none;
+ margin-top: -10vh;
 }
 
 @media (min-width: 600px) {
@@ -125,6 +133,7 @@ display: flex;
     position: absolute;
     margin-left: 15px;
     display: block;
+    margin-top: -10vh;
   }
 
   .Menu-link .home {
