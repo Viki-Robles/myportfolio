@@ -1,13 +1,11 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Menu from "./Menu/Menu";
 import Home from "./Home/Home";
 import About from "./About/About";
 import ScrollMenu from "./ScrollMenu/ScrollMenu";
-import { AnimatedSwitch } from "react-router-transition";
 import ProjectsGallery from "./Projects/ProjectsGallery";
-import logo from './Home/images/logo.png';
 
 class App extends Component {
   render() {

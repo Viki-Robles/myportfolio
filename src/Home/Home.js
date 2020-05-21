@@ -11,7 +11,6 @@ export default function Home(props) {
         <img src={homepicture} alt="homepicture"/>
       </div>
       <div className="homePage">
-        <div className="bracket">&#123;</div>
         <h1>
           <span>H</span>
           <span>i</span>
@@ -32,7 +31,6 @@ export default function Home(props) {
           Beauty.
         </h4>
         <button className="homepage-button">Contact me</button>
-        <div className="bracket bracket-down">&#125;</div>
       </div>
     </div>
     <span className="tags tags-bottom">&lt;&#47;body&gt;</span>
