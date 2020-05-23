@@ -19,7 +19,6 @@ display: flex;
 
 .Menu-links {
   display: none;
-  
 }
 
 .Menu-links.is-expanded {
@@ -37,7 +36,7 @@ display: flex;
   position: absolute;
 }
 
-.MenuButton img{
+.MenuButton img {
   width: 5.3vh;
 }
 .icon {
@@ -45,7 +44,7 @@ display: flex;
 }
 
 .Menu-link {
- margin: 10px;
+  margin: 10px;
 }
 
 .Menu-link .home {
@@ -90,12 +89,12 @@ display: flex;
 }
 .Menu-link:hover .skills {
   display: block;
-  font-weight:150;
+  font-weight: 150;
 }
 
 .logo {
- display: none;
- margin-top: -10vh;
+  display: none;
+  margin-top: -10vh;
 }
 
 @media (min-width: 600px) {
@@ -116,12 +115,12 @@ display: flex;
     top: 50%;
     margin-top: -120px;
     width: 100%;
-    margin-left:-5px;
+    margin-left: -5px;
   }
-  
+
   .Menu-link {
     margin: 5px;
-   }
+  }
 
   .icon {
     width: 23px;
@@ -184,7 +183,7 @@ display: flex;
   }
   .Menu-link:hover .skills {
     display: block;
-    font-weight:150;
+    font-weight: 150;
     font-size: 14px;
   }
 }

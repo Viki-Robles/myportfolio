@@ -27,7 +27,7 @@ img {
 h1 {
   font-size: 4.2vh;
   font-weight: 200;
-  color:white;
+  color: white;
 }
 
 h1 span:nth-child(7) {
@@ -61,7 +61,7 @@ h1 span:nth-child(6) {
 
 h2 {
   font-size: 3.4vh;
-  color:white;
+  color: white;
   font-weight: 200;
 }
 
@@ -69,7 +69,7 @@ h4 {
   line-height: 20px;
   font-weight: 545;
   font-size: 2vh;
-  color:#8d8d8d;
+  color: #8d8d8d;
 }
 
 .homepage-button {
@@ -85,7 +85,6 @@ h4 {
 
 .bracket {
   display: none;
-
 }
 
 @media (min-width: 600px) {
@@ -99,7 +98,7 @@ h4 {
     margin-left: 80px;
     color: white;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-    animation: fade 1.3s cubic-bezier(.39, -1.05,.58,1.95);
+    animation: fade 1.3s cubic-bezier(0.39, -1.05, 0.58, 1.95);
     animation-delay: -0.2s;
     transform-origin: center top;
   }
@@ -107,11 +106,11 @@ h4 {
   @keyframes fade {
     0% {
       opacity: 0;
-      transform: scale3d(.75, .75, 1);
+      transform: scale3d(0.75, 0.75, 1);
     }
     70% {
       opacity: 0;
-      transform: scale3d(.75, .75, 1);
+      transform: scale3d(0.75, 0.75, 1);
     }
     100% {
       opacity: 1;
@@ -193,7 +192,6 @@ h4 {
   .homePage-logo {
     position: absolute;
     right: 1vh;
-    
   }
 
   .homePage-logo img {
@@ -212,9 +210,13 @@ h4 {
 }
 @media (min-width: 744px) {
   .homePage-logo img {
-    width: 32vh;
-    margin-right: 5vh;
+    width: 38vh;
+    margin-right: 2vh;
+    top: 7vh;
+  }
 
+  h4 {
+    font-size: 2vh;
   }
 }
 
@@ -222,7 +224,6 @@ h4 {
   .homePage-logo img {
     width: 38vh;
     margin-right: 5vh;
-    
   }
 
   h1 {
@@ -235,7 +236,6 @@ h4 {
 
   h4 {
     font-size: 2vh;
-
   }
 }
 
@@ -256,7 +256,6 @@ h4 {
 
   h4 {
     font-size: 2.5vh;
-
   }
 
   .homepage-button {
