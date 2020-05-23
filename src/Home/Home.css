@@ -224,12 +224,47 @@ h4 {
     margin-right: 5vh;
     
   }
-  @media (min-width: 1454px) {
-    .homePage-logo img {
-      width: 44vh;
-      top: 5vh;
-      margin-right: 15vh;
-    }
+
+  h1 {
+    font-size: 8vh;
+  }
+
+  h2 {
+    font-size: 8vh;
+  }
+
+  h4 {
+    font-size: 2vh;
+
   }
 }
 
+@media (min-width: 1454px) {
+  .homePage-logo img {
+    width: 44vh;
+    top: 5vh;
+    margin-right: 15vh;
+  }
+
+  h1 {
+    font-size: 7vh;
+  }
+
+  h2 {
+    font-size: 7vh;
+  }
+
+  h4 {
+    font-size: 2.5vh;
+
+  }
+
+  .homepage-button {
+    padding: 20px 40px;
+    margin-top: 10vh;
+  }
+
+  h1 span:nth-child(7) {
+    font-size: 10vh;
+  }
+}
