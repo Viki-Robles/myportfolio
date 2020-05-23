@@ -67,7 +67,7 @@ h2 {
 
 h4 {
   line-height: 20px;
-  font-weight: 545;
+  font-weight: 300;
   font-size: 2vh;
   color: #8d8d8d;
 }
@@ -120,7 +120,8 @@ h4 {
 
   h1 {
     font-size: 60px;
-    font-weight: 300;
+    font-weight: 400;
+    font-weight: 400;
   }
 
   h1 span:nth-child(7) {
@@ -155,12 +156,12 @@ h4 {
 
   h2 {
     font-size: 40px;
-    line-height: 20px;
+    line-height: 53px;
     font-weight: 300;
   }
   h4 {
     line-height: 30px;
-    font-weight: 545;
+    font-weight: 400;
     font-size: 15px;
     color: #8d8d8d;
   }
@@ -205,14 +206,13 @@ h4 {
   .homePage-logo img {
     width: 25vh;
     margin-right: 2vh;
-    top: -1vh;
   }
 }
 @media (min-width: 744px) {
   .homePage-logo img {
     width: 38vh;
     margin-right: 2vh;
-    top: 7vh;
+    top: -4vh;
   }
 
   h4 {

@@ -64,28 +64,12 @@ a {
     color: white;
   }
   .about {
-    margin-left: 80px;
+    margin-left: 8vh;
     display: flex;
-    color: #b4f5f0;
-    font-size: 60px;
+    color: white;
+    font-size: 6vh;
     font-weight: 400;
     position: relative;
-    margin-bottom: 40px;
-  }
-
-  .about span:nth-child(5) {
-    margin-right: 15px;
-  }
-
-  .bracket {
-    color: #b4f5f0;
-    font-size: 50px;
-    font-weight: bold;
-    margin-left: 0px;
-  }
-
-  .bracket.bracket-down {
-    margin-top: 60px;
   }
 
   .about-container {
@@ -94,10 +78,9 @@ a {
     grid-template-columns: 1fr 2fr;
   }
 
-  .about {
-    margin-top: 15vh;
+  .about span:nth-child(6) {
+    margin-left: 3vh
   }
-
   .tags {
     color: #515152;
     margin-left: 10vh;
@@ -105,9 +88,10 @@ a {
     font-family: "La Belle Aurore", cursive;
   }
 
-  .tags.tags-top {
-    margin-top: 20px;
+  .about.tags.tags-top {
+   top: -15px;
   }
+
   @keyframes animate {
     0% {
       transform: translateY(0px) rotate(0deg);
@@ -126,67 +110,29 @@ a {
     }
   }
 
-  /*
-
-  .paper-container {
-    position: absolute;
-    transform: perspective(1000px) rotateY(-45deg);
-    width: 400px;
-    height: 400px;
-    transform-style: preserve-3d;
-    border: 3px solid #b4f5f0;
-    background:#b4f5f0;
-    left: 60%;
-    top:40%;
-    border-radius:4px;
-
+  .knowledge {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25vh;
   }
 
-  .paper-container div {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left:0;
-    transform-style: preserve-3d;
-    animation: moving 5s linear infinite;
+  .knowledge-title {
+    font-size: 5vh;
+    margin-left: 8vh;
+    font-weight: 400;
   }
-  .paper-container div span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(0deg, #b9f5f0,#b6ebdd,#ffff);
-  }
-  .paper-container div span:nth-child(1) {
-    transform: rotateX(0deg);
-  }
-  .paper-container div span:nth-child(2) {
-    transform: rotateX(45deg);
-  }
-  .paper-container div span:nth-child(3) {
-    transform: rotateX(-55deg);
-  }
-  .paper-container div span:nth-child(4) {
-    transform: rotateX(-75deg);
-  }
-  .paper-container div span:nth-child(5) {
-    transform: rotateX(90deg);
+   .knowledge img {
+     width: 8vh;
+     margin-left: 7vh;
+   }
 
-  }
-
-  @keyframes moving {
-    0% {
-      transform: perspective(1000px) rotateX(0deg);
-
-    }
-    100% {
-      transform: perspective(1000px) rotateX(359deg);
-
-    }
-  }
-
-  */
+   .knowledge-tools {
+     margin-bottom: 20vh;
+     margin-left: 8vh;
+     line-height: 18px;
+     color: #fff;
+     font-family: "Open Sans",sans-serif;
+     font-weight: 300;
+   }
+  
 }

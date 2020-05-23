@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Menu from "../Menu/Menu";
 import "./About.css";
+import bulb from '../About/images/bulb.png';
 
 export default function About() {
   return (
@@ -18,11 +19,16 @@ export default function About() {
             <span>t</span>
             <span>m</span>
             <span>e</span>
+            <span>.</span>
           </h2>
           <p>
-             I'am Vicky Vasilopoulou, front-end developer and i have turned my dream into a career.
-             Fan of squash, TV series 
-          </p>
+            </p>
+            <div className="knowledge">
+            <h2 className="knowledge-title">Knowledge</h2>
+            <img src={bulb} alt="light_bulb"/>
+
+            </div>
+            <p className="knowledge-tools">JavaScript, ReactJS, CSS, HTML5, Agile, NodeJS, UI Design</p>   
         </div>
       <div className="about-container-box">
           <div className="about-container-image">
