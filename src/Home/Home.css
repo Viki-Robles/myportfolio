@@ -193,18 +193,43 @@ h4 {
   .homePage-logo {
     position: absolute;
     right: 1vh;
-    width: 35vh;
+    
   }
 
   .homePage-logo img {
     border-radius: 4px;
-    top: 2vh;
+    top: 18vh;
+    width: 20vh;
+  }
+}
+
+@media (min-width: 678px) {
+  .homePage-logo img {
+    width: 25vh;
+    margin-right: 2vh;
+    top: -1vh;
+  }
+}
+@media (min-width: 744px) {
+  .homePage-logo img {
+    width: 32vh;
+    margin-right: 5vh;
 
   }
 }
 
-/*if I want to add hover effect at the animation
-h1:hover span:nth-child{
-animation: animate 6s infinite;
+@media (min-width: 1366px) {
+  .homePage-logo img {
+    width: 38vh;
+    margin-right: 5vh;
+    
+  }
+  @media (min-width: 1454px) {
+    .homePage-logo img {
+      width: 44vh;
+      top: 5vh;
+      margin-right: 15vh;
+    }
+  }
+}
 
-*/
