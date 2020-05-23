@@ -70,6 +70,7 @@ a {
     font-size: 6vh;
     font-weight: 400;
     position: relative;
+    margin-top: -5vh;
   }
 
   .about-container {
@@ -124,15 +125,20 @@ a {
    .knowledge img {
      width: 8vh;
      margin-left: 7vh;
+     margin-top: 2vh;
    }
 
    .knowledge-tools {
-     margin-bottom: 20vh;
      margin-left: 8vh;
-     line-height: 18px;
+     line-height: 10px;
      color: #fff;
      font-family: "Open Sans",sans-serif;
      font-weight: 300;
    }
   
+   .hobbies h2 {
+    font-size: 5vh;
+    margin-left: 8vh;
+    font-weight: 400;
+   }
 }

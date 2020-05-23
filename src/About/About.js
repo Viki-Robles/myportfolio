@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Menu from "../Menu/Menu";
 import "./About.css";
-import bulb from '../About/images/bulb.png';
+import whitebulb from '../About/images/whitebulb.png';
 
 export default function About() {
   return (
@@ -25,10 +25,14 @@ export default function About() {
             </p>
             <div className="knowledge">
             <h2 className="knowledge-title">Knowledge</h2>
-            <img src={bulb} alt="light_bulb"/>
-
+            <img src={whitebulb} alt="light_bulb"/>
             </div>
-            <p className="knowledge-tools">JavaScript, ReactJS, CSS, HTML5, Agile, NodeJS, UI Design</p>   
+            <p className="knowledge-tools">JavaScript, ReactJS, NodeJS, HTML5,</p>
+            <p className="knowledge-tools">CSS, Agile, UI Design</p>
+            <div className="hobbies">
+            <h2>Hobbies</h2>
+            <p>Squash</p>
+            </div>     
         </div>
       <div className="about-container-box">
           <div className="about-container-image">
