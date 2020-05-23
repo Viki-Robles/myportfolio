@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Menu from "../Menu/Menu";
 import "./About.css";
 import whitebulb from '../About/images/whitebulb.png';
+import racket from '../About/images/racket.png';
 
 export default function About() {
   return (
@@ -31,8 +32,10 @@ export default function About() {
             <p className="knowledge-tools">CSS, Agile, UI Design</p>
             <div className="hobbies">
             <h2>Hobbies</h2>
-            <p>Squash</p>
-            </div>     
+            <img src={racket} alt="racket"/>
+            </div>  
+            <p>Squash, Meeting with friends</p>
+               
         </div>
       <div className="about-container-box">
           <div className="about-container-image">

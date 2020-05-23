@@ -136,9 +136,19 @@ a {
      font-weight: 300;
    }
   
+   .hobbies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
    .hobbies h2 {
     font-size: 5vh;
     margin-left: 8vh;
     font-weight: 400;
+   }
+
+   .hobbies img {
+    width: 8vh;
+    margin-left: 7vh;
+    margin-top: 2vh;
    }
 }
