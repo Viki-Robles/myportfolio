@@ -5,6 +5,7 @@ import "./About.css";
 import whitebulb from '../About/images/whitebulb.png';
 import racket from '../About/images/racket.png';
 
+
 export default function About() {
   return (
     <Link to="/about">
@@ -13,17 +14,15 @@ export default function About() {
       <div className="about-container">
         <div className="about-container-items">
           <h2 className="about">
-            <span>A</span>
-            <span>b</span>
-            <span>o</span>
-            <span>u</span>
+            <span>M</span>
+            <span>y</span>
+            <span>S</span>
             <span>t</span>
-            <span>m</span>
-            <span>e</span>
+            <span>o</span>
+            <span>r</span>
+            <span>y</span>
             <span>.</span>
           </h2>
-          <p>
-            </p>
             <div className="knowledge">
             <h2 className="knowledge-title">Knowledge</h2>
             <img src={whitebulb} alt="light_bulb"/>
@@ -34,8 +33,7 @@ export default function About() {
             <h2>Hobbies</h2>
             <img src={racket} alt="racket"/>
             </div>  
-            <p>Squash, Meeting with friends</p>
-               
+            <p className="hobbies-list">Squash</p>       
         </div>
       <div className="about-container-box">
           <div className="about-container-image">

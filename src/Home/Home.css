@@ -210,9 +210,9 @@ h4 {
 }
 @media (min-width: 744px) {
   .homePage-logo img {
-    width: 38vh;
-    margin-right: 2vh;
-    top: -4vh;
+    width: 40vh;
+    margin-right: 4vh;
+    top: 4vh;
   }
 
   h4 {

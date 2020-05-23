@@ -3,7 +3,6 @@ import "./Menu.css";
 import homeIcon from "./MenuIcons/homeIcon.png";
 import aboutIcon from "./MenuIcons/aboutIcon.png";
 import eyeIcon from "./MenuIcons/eyeIcon.png";
-import settingsIcon from "./MenuIcons/settingsIcon.png";
 import MenuButton from "./MenuButton/MenuButton";
 import { Link } from "react-router-dom";
 import Footer from '../Footer/Footer';
@@ -43,10 +42,6 @@ export default class Menu extends Component {
               <img className="icon" src={eyeIcon} alt="projectsIcon" />
               <div className="projects">Work</div>
             </Link>
-          </div>
-          <div className="Menu-link">
-            <img className="icon" src={settingsIcon} alt="skillsIcon" />
-            <div className="skills">Skills</div>
           </div>
         </div>
         <Footer/>

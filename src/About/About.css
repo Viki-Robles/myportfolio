@@ -28,8 +28,10 @@ a {
   font-weight: 400;
 }
 
-.about span:nth-child(5) {
-  margin-right: 8px;
+.about span:nth-child(3) {
+  margin-left: 3vh;
+  color: #b4f5f0;
+  font-size: 8vh;
 }
 
 .tags {
@@ -77,10 +79,13 @@ a {
     position: relative;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    margin-left: 5vh;
   }
 
-  .about span:nth-child(6) {
-    margin-left: 3vh
+  .about span:nth-child(3) {
+    margin-left: 3vh;
+    color: #b4f5f0;
+    font-size: 8vh;
   }
   .tags {
     color: #515152;
@@ -136,7 +141,7 @@ a {
      font-weight: 300;
    }
   
-   .hobbies{
+   .hobbies {
     display: grid;
     grid-template-columns: 1fr 1fr;
    }
@@ -150,5 +155,13 @@ a {
     width: 8vh;
     margin-left: 7vh;
     margin-top: 2vh;
+   }
+
+   .hobbies-list{
+     margin-left: 8vh;
+     line-height: 10px;
+     color: #fff;
+     font-family: "Open Sans",sans-serif;
+     font-weight: 300;
    }
 }
