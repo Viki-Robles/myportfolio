@@ -130,7 +130,7 @@ h4 {
   }
 
 .homePage-content{
-  animation: fade 1.3s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation: fade 1.3s cubic-bezier(0.39, -1.05, 0.40, 1.00);
   animation-delay: -0.1s;
   transform-origin: center top;
 }
