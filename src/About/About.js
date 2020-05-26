@@ -27,10 +27,10 @@ export default function About() {
             <h2 className="knowledge-title">Knowledge</h2>
             <img src={whitebulb} alt="light_bulb"/>
             </div>
-            <p className="knowledge-tools">JavaScript, ReactJS, NodeJS, HTML5,</p>
-            <p className="knowledge-tools">CSS, Agile, UI Design</p>
+            <p className="knowledge-tools">JavaScript, ReactJS, NodeJS, Express, HTML5</p>
+            <p className="knowledge-tools">CSS, Agile, Trelo, UI Design</p>
             <div className="hobbies">
-            <h2>Hobbies</h2>
+            <h2>Passion</h2>
             <img src={racket} alt="racket"/>
             </div>  
             <p className="hobbies-list">Squash</p>       

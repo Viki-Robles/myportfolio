@@ -206,13 +206,14 @@ h4 {
   .homePage-logo img {
     width: 25vh;
     margin-right: 2vh;
+    top: 3vh;
   }
 }
 @media (min-width: 744px) {
   .homePage-logo img {
-    width: 40vh;
+    width: 35vh;
     margin-right: 4vh;
-    top: 4vh;
+    top: -4vh;
   }
 
   h4 {
@@ -266,4 +267,12 @@ h4 {
   h1 span:nth-child(7) {
     font-size: 10vh;
   }
+
+ 
 }
+
+@media(min-width: 320px) {
+  .MenuButton img {
+    width: 4vh;
+  }
+} 

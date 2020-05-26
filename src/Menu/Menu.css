@@ -1,18 +1,8 @@
 /*
 color: #82E8D7
 pallete: #B4F5F0, #2CEEF0, #0476D0
-
-display: flex;
-  justify-content: space-evenly;
-  position: absolute;
-  background: #041f60;
-  width: 100%;
-
-  .Menu-link {
-  padding: 20px;
-}
-
 */
+
 .Menu {
   display: flex;
 }
