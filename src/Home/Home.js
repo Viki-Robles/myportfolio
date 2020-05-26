@@ -24,12 +24,14 @@ export default function Home(props) {
           <span>k</span>
           <span>y</span>
         </h1>
+        <div className="homePage-content">
         <h2>web developer.</h2>
         <h4>
           {" "}
           Front End Developer, based in London, who loves building Digital
           Beauty.
         </h4>
+        </div>
         <button className="homepage-button">Contact me</button>
       </div>
     </div>

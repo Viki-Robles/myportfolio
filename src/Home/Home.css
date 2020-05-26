@@ -9,10 +9,6 @@
   z-index: 3;
 }
 
-img {
-  width: 100%;
-}
-
 .homepage-logo {
   width: 100%;
 }
@@ -20,10 +16,11 @@ img {
 .homePage-logo img {
   position: absolute;
   margin-top: -15vh;
-  width: 25vh;
+  width: 23vh;
   right: 1vh;
   border-radius: 4px;
 }
+
 h1 {
   font-size: 4.2vh;
   font-weight: 200;
@@ -98,8 +95,22 @@ h4 {
     margin-left: 80px;
     color: white;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-    animation: fade 1.3s cubic-bezier(0.39, -1.05, 0.58, 1.95);
-    animation-delay: -0.2s;
+    
+  }
+
+  h1 {
+    font-size: 60px;
+    font-weight: 400;
+    font-weight: 400;
+  }
+
+  h1 span:nth-child(6) {
+    margin-right: 35px;
+  }
+
+  .homePage h1 {
+    animation: fade 1.3s cubic-bezier(0.39, -1.00, 0.40, 1.00);
+    animation-delay: -0.3s;
     transform-origin: center top;
   }
 
@@ -118,42 +129,11 @@ h4 {
     }
   }
 
-  h1 {
-    font-size: 60px;
-    font-weight: 400;
-    font-weight: 400;
-  }
-
-  h1 span:nth-child(7) {
-    color: #b4f5f0;
-    font-size: 80px;
-    animation: animate 6s infinite;
-    display: inline-block;
-    font-weight: 300;
-  }
-
-  h1 span:nth-child(6) {
-    margin-right: 35px;
-  }
-
-  @keyframes animate {
-    0% {
-      transform: translateY(0px) rotate(0deg);
-    }
-    40% {
-      transform: translateY(0px) rotate(0deg);
-    }
-    50% {
-      transform: translateY(-100px) rotate(180deg);
-    }
-    60% {
-      transform: translateY(0px) rotate(360deg);
-    }
-    100% {
-      transform: translateY(0px);
-    }
-  }
-
+.homePage-content{
+  animation: fade 1.3s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -0.1s;
+  transform-origin: center top;
+}
   h2 {
     font-size: 40px;
     line-height: 53px;
@@ -202,11 +182,39 @@ h4 {
   }
 }
 
+h1 span:nth-child(7) {
+  color: #b4f5f0;
+  font-size: 80px;
+  animation: animate 6s infinite;
+  display: inline-block;
+  font-weight: 300;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  40% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-100px) rotate(180deg);
+  }
+  60% {
+    transform: translateY(0px) rotate(360deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+
 @media (min-width: 678px) {
   .homePage-logo img {
-    width: 25vh;
+    width: 28vh;
     margin-right: 2vh;
-    top: 3vh;
+    top: 1vh;
   }
 }
 @media (min-width: 744px) {
@@ -267,12 +275,4 @@ h4 {
   h1 span:nth-child(7) {
     font-size: 10vh;
   }
-
- 
 }
-
-@media(min-width: 320px) {
-  .MenuButton img {
-    width: 4vh;
-  }
-} 

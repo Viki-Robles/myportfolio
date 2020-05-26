@@ -21,13 +21,16 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
 }
 
 .MenuButton {
-  margin: 2vh;
-  padding: 2px;
   position: absolute;
+  position: absolute;
+  margin-left: 5px;
+  padding: 0px;
+  
 }
 
 .MenuButton img {
-  width: 5.3vh;
+  width: 4vh;
+  
 }
 .icon {
   width: 23px;
