@@ -8,14 +8,17 @@ export default function Footer() {
     <>
       <div className="footer">
         <item>
-          <a href="https://www.linkedin.com/in/vicky-vasilopoulou-52230111b/">
+         <li><a href="https://www.linkedin.com/in/vicky-vasilopoulou-52230111b/">
             <img src={linkedin} className="icon_footer" alt="" />
           </a>
+          </li>
         </item>
         <item>
+          <li>
           <a href="https://github.com/Viki-Robles">
             <img src={github} className="icon_footer" alt="" />
           </a>
+          </li>
         </item>
       </div>
     </>

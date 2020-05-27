@@ -9,8 +9,8 @@ import racket from '../About/images/racket.png';
 export default function About() {
   return (
     <Link to="/about">
+    <span className="tags tags-top">&lt;body&gt;</span>
       <Menu />
-      <span className="tags tags-top">&lt;body&gt;</span>
       <div className="about-container">
         <div className="about-container-items">
           <h2 className="about">

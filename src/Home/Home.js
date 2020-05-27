@@ -30,8 +30,7 @@ export default function Home(props) {
           {" "}
           Front End Developer, based in London, who loves building Digital
           Beauty.
-        </h4>
-        
+        </h4>  
         <button className="homepage-button">Contact me</button>
       </div>
       </div>

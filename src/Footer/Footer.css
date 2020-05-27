@@ -8,7 +8,7 @@
     position: absolute;
     display: grid;
     grid-gap: 20px;
-    margin-left: 15px;
+    margin-left: -0.5vh;;
   }
 
   .icon_footer {

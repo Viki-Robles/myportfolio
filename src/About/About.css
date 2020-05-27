@@ -92,12 +92,12 @@ a {
     margin-left: 10vh;
     font-size: 18px;
     font-family: "La Belle Aurore", cursive;
+    margin-top: 10vh;
   }
 
-  .about.tags.tags-top {
-   top: -15px;
-  }
+.tags .tags-top {
 
+}
   @keyframes animate {
     0% {
       transform: translateY(0px) rotate(0deg);
