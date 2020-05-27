@@ -7,8 +7,16 @@
   display: none;
 }
 
-.projects-container .content {
+.projects-container .picture .details {
+  position: absolute;
+  top: 35vh;
+  display: none;
+}
 
+.projects-container .picture:hover .details {
+  position: absolute;
+  color: white;
+  display: block;
 }
 
 @media (min-width: 600px) {
