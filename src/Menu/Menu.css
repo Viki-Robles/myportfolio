@@ -25,7 +25,8 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
   margin-left: 5px;
   padding: 0px;
   background-color: transparent;
-  border: 0; 
+  border: 0;
+  margin-top: -13vh;
 }
 
 .MenuButton img {
