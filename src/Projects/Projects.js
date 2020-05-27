@@ -14,9 +14,7 @@ export default function Projects({ picture, details, link}) {
           />
           
           <div className="details">
-          <div className="content">
             <p>{details}</p></div>
-          </div>
         </div>
       </div>
       <button className="projects-button" link={link}>

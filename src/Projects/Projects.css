@@ -8,7 +8,7 @@
 }
 
 .projects-container .content {
-  display: none;
+
 }
 
 @media (min-width: 600px) {
@@ -35,20 +35,20 @@
 
   .projects-container .picture:hover .picture_icon {
     transform: scale(1.2);
+    opacity: 0.1;
   }
 
   .projects-container .picture .details {
     position: absolute;
-    top: 150px;
-    margin-left: 35vh;
-  }
-
-  .projects-container .picture .details .content {
-    position: absolute;
-    color: white;
+    top: 35vh;
     display: none;
   }
-  .projects-container .picture .details:hover .content {
+
+  .projects-container .picture:hover .details {
+    position: absolute;
+    color: white;
     display: block;
   }
+
+
 }
