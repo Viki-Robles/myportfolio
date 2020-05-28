@@ -6,7 +6,7 @@ import AOS from "aos";
 export default function Home(props) {
   useEffect(() => {
     AOS.init({ duration: 3000, 
-      delay: 550
+      delay: 650
     });
   }, []);
   return (
@@ -32,7 +32,7 @@ export default function Home(props) {
         </h1>
         <div className="homePage-content">
         <h2>web developer.</h2>
-        <h4>
+        <h4 data-aos="fade-left">
           {" "}
           Front End Developer, based in London, who loves building Digital
           Beauty.
