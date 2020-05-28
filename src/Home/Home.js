@@ -31,7 +31,7 @@ export default function Home(props) {
           <span>y</span>
         </h1>
         <div className="homePage-content">
-        <h2>web developer.</h2>
+        <h2 data-aos="fade-right">web developer.</h2>
         <h4 data-aos="fade-left">
           {" "}
           Front End Developer, based in London, who loves building Digital

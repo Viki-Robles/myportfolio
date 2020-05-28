@@ -207,8 +207,7 @@ h4 {
 
   .homePage-logo img {
     border-radius: 4px;
-    top: 18vh;
-    width: 20vh;
+    width: 23vh;
     animation: fade 1.3s cubic-bezier(0.39, -1.05, 0.40, 1.00);
     animation-delay: -0.3s;
     transform-origin: center top;
@@ -245,17 +244,14 @@ h1 span:nth-child(7) {
 
 @media (min-width: 678px) {
   .homePage-logo img {
-    width: 28vh;
-    margin-right: 2vh;
-    top: 1vh;
+    width: 26vh;
+    top: -1vh;
   }
 }
 @media (min-width: 744px) {
   .homePage-logo img {
-    width: 40vh;
-    margin-right: 4vh;
+    width: 30vh;
   }
-
   h4 {
     font-size: 3vh;
   }
