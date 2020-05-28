@@ -249,9 +249,8 @@ h1 span:nth-child(7) {
 }
 @media (min-width: 744px) {
   .homePage-logo img {
-    width: 30vh;
+    width: 40vh;
     margin-right: 4vh;
-    top: -17vh;
   }
 
   h4 {
