@@ -162,7 +162,7 @@ h4 {
   transform-origin: center top;
 }
   h2 {
-    font-size: 40px;
+    font-size: 60px;
     line-height: 53px;
     font-weight: 300;
   }
@@ -254,7 +254,7 @@ h1 span:nth-child(7) {
   }
 
   h4 {
-    font-size: 2vh;
+    font-size: 3vh;
   }
 }
 
