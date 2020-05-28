@@ -22,7 +22,7 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
 
 .MenuButton {
   position: absolute;
-  margin-left: 5px;
+  margin: 15px;
   padding: 0px;
   background-color: transparent;
   border: 0;

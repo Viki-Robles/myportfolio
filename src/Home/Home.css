@@ -1,7 +1,7 @@
 .homePage-container {
   position: relative;
   z-index: 2;
-  margin-top: 5vh;
+  margin-top: 13vh;
 }
 
 .homePage {
@@ -15,7 +15,7 @@
 
 .homePage-logo img {
   position: absolute;
-  margin-top: 5vh;
+  margin-top: -7vh;
   width: 23vh;
   right: 1vh;
   border-radius: 4px;
