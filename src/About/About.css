@@ -94,10 +94,7 @@ a {
     font-family: "La Belle Aurore", cursive;
     margin-top: 10vh;
   }
-
-.tags .tags-top {
-
-}
+  
   @keyframes animate {
     0% {
       transform: translateY(0px) rotate(0deg);

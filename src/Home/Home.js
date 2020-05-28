@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useEffect }from "react";
 import "./Home.css";
 import homepicture from '../Home/images/homepicture.png';
+import AOS from "aos";
 
 export default function Home(props) {
+  useEffect(() => {
+    AOS.init({ duration: 3000, 
+      delay: 550
+    });
+  }, []);
   return (
     <>
-    <div className="homePage-container">
+    <div className="homePage-container" data-aos="fade-in">
     <span className="tags tags-top">&lt;body&gt;</span>
       <div className="homePage-logo">
-        <img src={homepicture} alt="homepicture"/>
+        <img src={homepicture} alt="homepicture" data-aos="fade-right"/>
       </div>
       <div className="homePage">
         <h1>
