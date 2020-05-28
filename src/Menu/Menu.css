@@ -26,6 +26,7 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
   padding: 0px;
   background-color: transparent;
   border: 0;
+  top: 0;
 }
 
 .MenuButton img {

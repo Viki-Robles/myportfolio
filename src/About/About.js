@@ -9,9 +9,7 @@ import "aos/dist/aos.css";
 
 export default function About() {
   useEffect(() => {
-    AOS.init({ duration: 1000, 
-      delay: 150
-    });
+    AOS.init({ duration: 3000, delay: 650 });
   }, []);
   return (
     <Link to="/about">
@@ -31,7 +29,7 @@ export default function About() {
             <span>.</span>
           </h2>
         </section>
-        <section className="section-2" data-aos="fade-in">
+        <section className="section-2" data-aos="fade-left">
              <div className="knowledge">
              <h2 className="knowledge-title">Knowledge</h2>
              <img src={whitebulb} alt="light_bulb"/>
@@ -39,7 +37,7 @@ export default function About() {
             <p className="knowledge-tools">JavaScript, ReactJS, NodeJS, Express, HTML5</p>
             <p className="knowledge-tools">CSS, Agile, Trelo, UI Design</p>
         </section>
-        <section className="section-3" data-aos="fade-in">
+        <section className="section-3" data-aos="fade-right">
             <div className="hobbies">
             <h2>Passion</h2>
             <img src={racket} alt="racket"/>
@@ -51,8 +49,8 @@ export default function About() {
           </div>
         </div>
       </div>
-      <span className="tags tags-bottom">&lt;&#47;body&gt;</span>
       </div>
+      <span className="tags tags-bottom">&lt;&#47;body&gt;</span>
     </Link>
   );
 }
