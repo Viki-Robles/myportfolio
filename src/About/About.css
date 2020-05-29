@@ -16,8 +16,10 @@ a {
   color: #041f60;
 }
 
-.about-container {
-  margin-top: 15vh;
+
+
+.tags {
+  display: none;
 }
 
 .about {
@@ -26,6 +28,7 @@ a {
   color: white;
   font-size: 35px;
   font-weight: 400;
+  margin-top: 15vh;
 }
 
 .about span:nth-child(3) {
@@ -40,6 +43,54 @@ a {
   font-size: 15px;
   font-family: "La Belle Aurore", cursive;
 }
+
+.knowledge {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 25vh;
+}
+
+.knowledge-title {
+  font-size: 5vh;
+  margin-left: 1.5vh;
+  font-weight: 400;
+}
+ .knowledge img {
+   width: 8vh;
+   margin-left: 1.5vh;
+   margin-top: 2vh;
+ }
+
+ .knowledge-tools {
+  margin-left: 1.5vh;
+   color: #fff;
+   font-family: "Open Sans",sans-serif;
+   font-weight: 300;
+ }
+
+ .hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+ .hobbies h2 {
+  font-size: 5vh;
+  margin-left: 1.5vh;
+  font-weight: 400;
+ }
+
+ .hobbies img {
+  width: 8vh;
+  margin-left: 1.5vh;
+  margin-top: 2vh;
+ }
+
+ .hobbies-list{
+  margin-left: 1.5vh;
+   line-height: 10px;
+   color: #fff;
+   font-family: "Open Sans",sans-serif;
+   font-weight: 300;
+ }
 
 @media (min-width: 600px) {
   ul {
