@@ -1,8 +1,12 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import "./Projects.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
- 
 export default function Projects({ picture, details, link}) {
+  useEffect(() => {
+    AOS.init({ duration: 3000, delay: 650 });
+  }, []);
   return (
     <>
       <div className="projects-container">
@@ -14,7 +18,7 @@ export default function Projects({ picture, details, link}) {
           />
           
           <div className="details">
-            <p>{details}</p></div>
+            <p data-aos="fade-right">{details}</p></div>
         </div>
       </div>
       <button className="projects-button" link={link}>
