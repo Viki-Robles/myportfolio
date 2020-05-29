@@ -28,7 +28,7 @@ a {
 .about span:nth-child(3) {
   margin-left: 3vh;
   color: #b4f5f0;
-  font-size: 8vh;
+  font-size: 6vh;
 }
 
 .tags {
@@ -36,8 +36,12 @@ a {
   margin-left: 4vh;
   font-size: 15px;
   font-family: "La Belle Aurore", cursive;
+  position: absolute;
 }
 
+.tags .tags-top {
+  margin-top: 8vh;
+}
 .knowledge {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -137,24 +141,6 @@ a {
     font-size: 18px;
     font-family: "La Belle Aurore", cursive;
     margin-top: 10vh;
-  }
-  
-  @keyframes animate {
-    0% {
-      transform: translateY(0px) rotate(0deg);
-    }
-    40% {
-      transform: translateY(0px) rotate(0deg);
-    }
-    50% {
-      transform: translateY(-100px) rotate(180deg);
-    }
-    60% {
-      transform: translateY(0px) rotate(360deg);
-    }
-    100% {
-      transform: translateY(0px);
-    }
   }
 
   .knowledge {
