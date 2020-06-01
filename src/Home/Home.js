@@ -42,6 +42,7 @@ export default function Home(props) {
       </div>
     </div>
     <span className="tags tags-bottom">&lt;&#47;body&gt;</span>
+    <h6>Vicky Vasilopoulou. All rights reserved.</h6>
     </>
   );
 }

@@ -32,6 +32,7 @@ a {
 }
 
 .tags {
+  display: none;
   color: #515152;
   margin-left: 4vh;
   font-size: 15px;
@@ -136,6 +137,7 @@ a {
     font-size: 8vh;
   }
   .tags {
+    display: none;
     color: #515152;
     margin-left: 10vh;
     font-size: 18px;

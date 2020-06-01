@@ -134,6 +134,11 @@ h4 {
   h1 span:nth-child(6) {
     margin-right: 35px;
   }
+
+  h6 {
+    color: white;
+    margin-left: 80px;
+  }
 /*
   .homePage h1 {
     animation: fade 1.3s cubic-bezier(0.39, -1.00, 0.40, 1.00);

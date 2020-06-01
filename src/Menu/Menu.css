@@ -16,12 +16,11 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
   justify-content: space-between;
   background: #181818;
   width: 100%;
-  position: relative;
+  position: absolute;
   height: 8vh;
 }
 
 .MenuButton {
-  position: absolute;
   margin: 15px;
   padding: 0px;
   background-color: transparent;
@@ -36,7 +35,6 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
 .icon {
   width: 23px;
 }
-
 .Menu-link {
   margin: 10px;
 }

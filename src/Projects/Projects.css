@@ -13,14 +13,6 @@
   display: none;
 }
 
-.projects-container .picture:hover .details {
-  position: absolute;
-  color: white;
-  display: block;
-  margin-top: -5vh;
-  margin: 5px;
-}
-
 .picture{
   position: relative;
 }
