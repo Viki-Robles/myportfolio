@@ -37,7 +37,7 @@ export default function About() {
             <p className="knowledge-tools">JavaScript, ReactJS, NodeJS, Express, HTML5</p>
             <p className="knowledge-tools">CSS, Agile, Trelo, UI Design</p>
           </section>
-          <section className="section-3" data-aos="fade-right">
+          <section className="section-3" data-aos="fade-left">
             <div className="hobbies">
               <h2 className="hobbies-title">Passion</h2>
               <img src={racket} alt="racket" />
