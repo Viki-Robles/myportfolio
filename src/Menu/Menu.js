@@ -23,8 +23,8 @@ export default class Menu extends Component {
     return (
       <div className="Menu">
         <MenuButton onButtonClicked={() => this.toggleState()}
-        isExpanded={isExpanded}/>
-        <div className={`Menu-links ${this.state.isExpanded ? "is-expanded": ""}`}>
+          isExpanded={isExpanded} />
+        <div className={`Menu-links ${this.state.isExpanded ? "is-expanded" : ""}`}>
           <div className="Menu-link">
             <Link to="/">
               <img className="icon" src={homeIcon} alt="homeIcon" />
@@ -44,7 +44,7 @@ export default class Menu extends Component {
             </Link>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     );
   }

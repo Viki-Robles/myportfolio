@@ -17,14 +17,14 @@ export default function ProjectsGallery() {
         <div className="projects" data-aos="fade-in">
           {
             getProjects().map(project => (
-            <Projects
-              key={project.id}
-              id={project.id}
-              picture={project.picture}
-              link={project.link}
-              details = {project.details}
-            />
-          ))}
+              <Projects
+                key={project.id}
+                id={project.id}
+                picture={project.picture}
+                link={project.link}
+                details={project.details}
+              />
+            ))}
         </div>
       </Link>
     </>

@@ -192,4 +192,59 @@ a {
      font-family: "Open Sans",sans-serif;
      font-weight: 300;
    }
+
+   .bubbles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    font-size: 40px;
+  }
+  .bubble {
+    position: absolute;
+    bottom: 0;
+    background-color: transparent;
+    opacity: 0.5;
+    justify-content: center;
+    color: white;
+    animation: flying 10s ease-in-out;
+  }
+
+  .bubble:nth-child(1) {
+    left: 30%;
+    animation-duration: 8s;
+  }
+  .bubble:nth-child(2) {
+    left: 40%;
+    animation-duration: 8s;
+  }
+  .bubble:nth-child(3) {
+    left: 50%;
+    animation-duration: 8s;
+  }
+  .bubble:nth-child(4) {
+    left: 60%;
+    animation-duration: 8s;
+  }
+  .bubble:nth-child(5) {
+    left: 70%;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes flying {
+    0% {
+      bottom: -80px;
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px);
+    }
+    100% {
+      bottom: 1080px;
+      transform: translateX(-200px);
+    }
+  }
+
 }
