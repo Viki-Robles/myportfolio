@@ -44,7 +44,8 @@ export default class Menu extends Component {
             </Link>
           </div>
         </div>
-        <Footer />
+        <Footer linkedin="https://www.linkedin.com/in/vicky-vasilopoulou-52230111b/"
+                gitHub="https://github.com/Viki-Robles" />
       </div>
     );
   }

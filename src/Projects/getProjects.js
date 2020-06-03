@@ -8,13 +8,13 @@ export default function getProjects() {
     title: "Kodflix", 
     picture: kodflix, 
     details: "A front-end development app using extensively ReactJS components and JavaScript simulating the production of Netflix." ,
-    link:"https://kodflix-phi.now.sh/"},
+    link: "https://kodflix-phi.now.sh/"},
     {
       id: "Burger Project",
       title: "Portfolio Project",
       picture: portfolio,
       details: "",
-      link:"https://portfolio-one-rosy.now.sh/"
+      link: "https://portfolio-one-rosy.now.sh/"
     }
   ];
 }
