@@ -32,15 +32,16 @@ export default function About() {
           <section className="section-2" data-aos="fade-left">
             <div className="knowledge">
               <h2 className="knowledge-title">Knowledge</h2>
-              <img src={whitebulb} alt="light_bulb" />
+              <h2 className="knowledge-title">Tools</h2>
+            <p className="knowledge-tools">JavaScript, ReactJS, NodeJS, Express, 
+            HTML5, CSS, Agile, UI Design</p>
+            <p className="knowledge-tools">Git, Trello, Heroku, ZEIT</p>
             </div>
-            <p className="knowledge-tools">JavaScript, ReactJS, NodeJS, Express, HTML5</p>
-            <p className="knowledge-tools">CSS, Agile, Trelo, UI Design</p>
           </section>
+
           <section className="section-3" data-aos="fade-left">
             <div className="hobbies">
               <h2 className="hobbies-title">Passion</h2>
-              <img src={racket} alt="racket" />
             </div>
             <p className="hobbies-list">Squash</p>
           </section>
