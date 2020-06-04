@@ -35,16 +35,16 @@ export default function About() {
           </section>
           <section className="section-2" data-aos="fade-left">
             <div className="about-container-list">
-              <div className="knowledge">
+              <div className="knowledge" data-aos="fade-left">
                 <h2 className="knowledge-title">Knowledge</h2>
                 <p className="knowledge-list">JavaScript, ReactJS, NodeJS<br /> Express,
                 HTML5, CSS, Agile<br /> UI Design</p>
               </div>
-              <div className="tools">
+              <div className="tools" data-aos="fade-bottom">
                 <h2 className="tools-title">Tools</h2>
                 <p className="tools-list">Git, Trello, Heroku, ZEIT</p>
               </div>
-              <div className="hobbies">
+              <div className="hobbies" data-aos="fade-left">
                 <h2 className="hobbies-title">Passion</h2>
                 <p className="hobbies-list">Squash</p>
               </div>
