@@ -26,6 +26,9 @@ export default function About() {
               <span>r</span>
               <span>y</span>
               <span>.</span>
+              <span>.</span>
+              <span>.</span>
+              <span>.</span>
             </h2>
             <p className="about-container-items-p">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br />
               Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.<br />
