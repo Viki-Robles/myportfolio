@@ -28,32 +28,28 @@ export default function About() {
               <span>y</span>
               <span>.</span>
             </h2>
+            <p className="about-container-items-p">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br />
+              Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.<br />
+              Donec eu libero sit amet quam egestas semper.
+              Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
           </section>
           <section className="section-2" data-aos="fade-left">
-            <div className="knowledge">
-              <h2 className="knowledge-title">Knowledge</h2>
-              <h2 className="knowledge-title">Tools</h2>
-              <p className="knowledge-tools">JavaScript, ReactJS, NodeJS, Express,
-            HTML5, CSS, Agile, UI Design</p>
-              <p className="knowledge-tools">Git, Trello, Heroku, ZEIT</p>
+            <div className="about-container-list">
+              <div className="knowledge">
+                <h2 className="knowledge-title">Knowledge</h2>
+                <p className="knowledge-list">JavaScript, ReactJS, NodeJS<br /> Express,
+                HTML5, CSS, Agile<br /> UI Design</p>
+              </div>
+              <div className="tools">
+                <h2 className="tools-title">Tools</h2>
+                <p className="tools-list">Git, Trello, Heroku, ZEIT</p>
+              </div>
+              <div className="hobbies">
+                <h2 className="hobbies-title">Passion</h2>
+                <p className="hobbies-list">Squash</p>
+              </div>
             </div>
           </section>
-
-          <section className="section-3" data-aos="fade-left">
-            <div className="hobbies">
-              <h2 className="hobbies-title">Passion</h2>
-            </div>
-            <p className="hobbies-list">Squash</p>
-          </section>
-          <div className="about-container-bubbles">
-            <div className="bubbles">
-              <div className="bubble">JS</div>
-              <div className="bubble">ReactJS</div>
-              <div className="bubble">HTML</div>
-              <div className="bubble">CSS</div>
-              <div className="bubble">NodeJs</div>
-            </div>
-          </div>
         </div>
       </div>
       <span className="tags tags-bottom">&lt;&#47;body&gt;</span>
@@ -61,3 +57,12 @@ export default function About() {
   );
 }
 
+/*<div className="about-container-bubbles">
+            <div className="bubbles">
+              <div className="bubble">JS</div>
+              <div className="bubble">ReactJS</div>
+              <div className="bubble">HTML</div>
+              <div className="bubble">CSS</div>
+              <div className="bubble">NodeJs</div>
+            </div>
+          </div>*/

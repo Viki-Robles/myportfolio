@@ -76,4 +76,8 @@
   .projects-button a {
     color:#b4f5f0;
   }
+
+  .projects-container .details p {
+    margin-left: 66px;
+  }
 }
