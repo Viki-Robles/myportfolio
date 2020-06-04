@@ -86,7 +86,6 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
 
 .logo {
   display: none;
-  margin-top: -10vh;
 }
 
 @media (min-width: 600px) {
@@ -130,7 +129,6 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
     position: absolute;
     margin-left: 15px;
     display: block;
-    margin-top: 10vh;
   }
 
   .Menu-link .home {

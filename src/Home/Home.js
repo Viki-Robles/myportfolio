@@ -34,10 +34,12 @@ export default function Home(props) {
         <h2 data-aos="fade-right">web developer.</h2>
         <h4 data-aos="fade-left">
           {" "}
-          Front End Developer, based in London, who loves building Digital
+          Full Stack Developer, based in London, who loves building Digital
           Beauty.
         </h4>  
         <button className="homepage-button">Contact me</button>
+        <h3>Contact Number: +44 7438 577 974</h3>
+        <h3>Email: vasiliki.robles@gmail.com</h3>
       </div>
       </div>
     </div>

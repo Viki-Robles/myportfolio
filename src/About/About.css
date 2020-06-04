@@ -213,19 +213,19 @@ a {
   }
 
   .bubble:nth-child(1) {
-    left: 20%;
+    right: 30%;
     animation-duration: 8s;
   }
   .bubble:nth-child(2) {
-    left: 30%;
+    right: 40%;
     animation-duration: 7s;
   }
   .bubble:nth-child(3) {
-    left: 40%;
+    left: 50%;
     animation-duration: 6s;
   }
   .bubble:nth-child(4) {
-    left: 50%;
+    right: 60%;
     animation-duration: 5s;
   }
   .bubble:nth-child(5) {
