@@ -33,9 +33,9 @@ export default function About() {
             <div className="knowledge">
               <h2 className="knowledge-title">Knowledge</h2>
               <h2 className="knowledge-title">Tools</h2>
-            <p className="knowledge-tools">JavaScript, ReactJS, NodeJS, Express, 
+              <p className="knowledge-tools">JavaScript, ReactJS, NodeJS, Express,
             HTML5, CSS, Agile, UI Design</p>
-            <p className="knowledge-tools">Git, Trello, Heroku, ZEIT</p>
+              <p className="knowledge-tools">Git, Trello, Heroku, ZEIT</p>
             </div>
           </section>
 
@@ -47,12 +47,12 @@ export default function About() {
           </section>
           <div className="about-container-bubbles">
             <div className="bubbles">
-                    <div className="bubble">JS</div>
-                    <div className="bubble">ReactJS</div>
-                    <div className="bubble">HTML</div>
-                    <div className="bubble">CSS</div>
-                    <div className="bubble">NodeJs</div>
-                </div>
+              <div className="bubble">JS</div>
+              <div className="bubble">ReactJS</div>
+              <div className="bubble">HTML</div>
+              <div className="bubble">CSS</div>
+              <div className="bubble">NodeJs</div>
+            </div>
           </div>
         </div>
       </div>

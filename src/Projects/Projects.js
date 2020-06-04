@@ -16,10 +16,10 @@ export default function Projects({ picture, details, link }) {
             <p data-aos="fade-right">{details}</p></div>
         </div>
       </div>
-      <button
-        className="projects-button" >
-        <a href={link}>Visit Site</a></button>
     </>
   );
 }
 
+/**<button
+        className="projects-button" >
+        <a href={link}>Visit Site</a></button> */

@@ -13,7 +13,7 @@ export default function Home(props) {
     <>
     <div className="homePage-container" data-aos="fade-in">
     <span className="tags tags-top">&lt;body&gt;</span>
-      <div className="homePage-logo">
+      <div className="homePage-picture">
         <img src={homepicture} alt="homepicture" data-aos="fade-right"/>
       </div>
       <div className="homePage">

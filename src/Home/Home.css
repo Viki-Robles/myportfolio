@@ -9,11 +9,11 @@
   z-index: 3;
 }
 
-.homepage-logo {
+.homepage-picture {
   width: 100%;
 }
 
-.homePage-logo img {
+.homePage-picture img {
   position: absolute;
   margin-top: -7vh;
   width: 23vh;
@@ -205,12 +205,12 @@ h4 {
   .bracket.bracket-down {
     font-weight: 200;
   }
-  .homePage-logo {
+  .homePage-picture {
     position: absolute;
     right: 1vh;
   }
 
-  .homePage-logo img {
+  .homePage-picture img {
     border-radius: 4px;
     width: 30vh;
     animation: fade 1.3s cubic-bezier(0.39, -1.05, 0.40, 1.00);
@@ -248,13 +248,13 @@ h1 span:nth-child(7) {
 
 
 @media (min-width: 678px) {
-  .homePage-logo img {
+  .homePage-picture img {
     width: 30vh;
     top: -1vh;
   }
 }
 @media (min-width: 744px) {
-  .homePage-logo img {
+  .homePage-picture img {
     width: 40vh;
   }
   h4 {
@@ -263,7 +263,7 @@ h1 span:nth-child(7) {
 }
 
 @media (min-width: 1366px) {
-  .homePage-logo img {
+  .homePage-picture img {
     width: 38vh;
     margin-right: 5vh;
   }
@@ -282,7 +282,7 @@ h1 span:nth-child(7) {
 }
 
 @media (min-width: 1454px) {
-  .homePage-logo img {
+  .homePage-picture img {
     width: 44vh;
     margin-right: 15vh;
   }
