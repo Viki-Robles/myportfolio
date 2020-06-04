@@ -1,4 +1,5 @@
-/*ul {
+
+ul {
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
   display: block;
@@ -16,81 +17,77 @@ a {
   color: #041f60;
 }
 
-.about {
-  margin-left: 10px;
+.about-container-items-p {
+  font-weight: 300;
   color: white;
-  font-size: 35px;
+  margin-left: 10px;
+
+ 
+}
+.about-container-list p {
+  font-weight: 300;
+  color: white;
+}
+.about {
+  color: white;
+  font-size: 6vh;
   font-weight: 400;
-  margin-top: 5vh;
+  position: relative;
+  margin-left: 10px;
+
 }
 
+.about-container-items {
+  position: relative;
+}
 
 .about span:nth-child(3) {
   margin-left: 3vh;
   color: #b4f5f0;
-  font-size: 6vh;
+  font-size: 8vh;
 }
 
-.tags {
-  display: none;
-  color: #515152;
-  margin-left: 4vh;
-  font-size: 15px;
-  font-family: "La Belle Aurore", cursive;
-  position: absolute;
-}
-
-.tags .tags-top {
-  margin-top: 8vh;
-}
-.knowledge {
+.about-container-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 25vh;
+  margin-top: 20vh;
+
 }
 
-.knowledge-title {
-  font-size: 5vh;
-  margin-left: 1.5vh;
+.knowledge, .hobbies, .tools {
+  box-sizing: border-box;
+  border: 4px solid #8d8d8d;
+  width: 80%;
+  box-shadow: 10px 10px 5px 0 #181818;;
+  text-align: center;   
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.knowledge-title,
+.hobbies-title,
+.tools-title {
   font-weight: 400;
 }
- .knowledge img {
-   width: 8vh;
-   margin-left: 1.5vh;
-   margin-top: 2vh;
- }
 
- .knowledge-tools {
-    margin-left: 1.5vh;
-   color: #fff;
-   font-family: "Open Sans",sans-serif;
-   font-weight: 300;
- }
-
- .hobbies h2 {
-  font-size: 5vh;
-  margin-left: 1.5vh;
+.hobbies h2,
+.knowledge h2,
+.tools h2 {
   font-weight: 400;
- }
+  color: #b4f5f0;
+}
 
- .hobbies img {
-  width: 8vh;
-  margin-left: 1.5vh;
-  margin-top: 2vh;
- }
+.hobbies-list,
+.tools-list,
+.knowledge-list {
+  line-height: 20px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  align-items: center;
+}
 
- .hobbies-list{
-   margin-left: 1.5vh;
-   line-height: 10px;
-   color: #fff;
-   font-family: "Open Sans",sans-serif;
-   font-weight: 300;
- }
 
- .bubbles{
-   display: none;
- }
-*/
 @media (min-width: 600px) {
   ul {
     box-sizing: border-box;
@@ -175,6 +172,7 @@ a {
   .tools h2 {
     font-size: 5vh;
     font-weight: 400;
+    color: #b4f5f0;
   }
 
   .hobbies-list,

@@ -17,7 +17,7 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
   background: #181818;
   width: 100%;
   position: absolute;
-  height: 8vh;
+  height: 8.2vh;
 }
 
 .MenuButton {
@@ -29,7 +29,7 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
 }
 
 .MenuButton img {
-  width: 4vh;
+  width: 5vh;
   
 }
 .icon {

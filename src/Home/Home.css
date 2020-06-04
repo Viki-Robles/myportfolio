@@ -50,6 +50,11 @@ h1 {
   }
 }
 */
+
+h3 {
+  color:#8d8d8d;
+  font-size: 15px;
+}
 .homePage-content{
 animation: fade 1.3s cubic-bezier(0.39, -1.05, 0.40, 1.00);
 animation-delay: -0.1s;

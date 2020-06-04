@@ -13,7 +13,6 @@ export default function About() {
   }, []);
   return (
     <Link to="/about">
-      <span className="tags tags-top">&lt;body&gt;</span>
       <Menu />
       <div className="about-container">
         <div className="about-container-items">
@@ -44,7 +43,7 @@ export default function About() {
                 <h2 className="tools-title">Tools</h2>
                 <p className="tools-list">Git, Trello, Heroku, ZEIT</p>
               </div>
-              <div className="hobbies" data-aos="fade-left">
+              <div className="hobbies hobbies" data-aos="fade-left">
                 <h2 className="hobbies-title">Passion</h2>
                 <p className="hobbies-list">Squash</p>
               </div>
@@ -52,7 +51,6 @@ export default function About() {
           </section>
         </div>
       </div>
-      <span className="tags tags-bottom">&lt;&#47;body&gt;</span>
     </Link>
   );
 }

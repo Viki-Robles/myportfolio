@@ -12,7 +12,6 @@ export default function Home(props) {
   return (
     <>
     <div className="homePage-container" data-aos="fade-in">
-    <span className="tags tags-top">&lt;body&gt;</span>
       <div className="homePage-picture">
         <img src={homepicture} alt="homepicture" data-aos="fade-right"/>
       </div>
@@ -43,7 +42,6 @@ export default function Home(props) {
       </div>
       </div>
     </div>
-    <span className="tags tags-bottom">&lt;&#47;body&gt;</span>
     </>
   );
 }
