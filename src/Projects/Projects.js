@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Projects.css";
 
 export default function Projects({ picture, details, link }) {
