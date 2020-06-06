@@ -59,7 +59,15 @@ a {
   border-radius: 4px;
   margin: 4px;
   background-color: #222;
+  opacity: 0.6;
+  
 }
+
+.knowledge,
+  .hobbies,
+  .tools:hover{
+    opacity: 1;
+  }
 
 .knowledge-title,
 .hobbies-title,
@@ -84,8 +92,6 @@ a {
   align-items: center;
 }
 
-.section-2 {
-}
 
 @media (min-width: 600px) {
   ul {
@@ -116,7 +122,7 @@ a {
     color: white;
   }
   .about {
-    margin-left: 13vh;
+    margin-left: 8vh;
     color: white;
     font-size: 6vh;
     font-weight: 400;
@@ -148,20 +154,25 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 10vh;
     margin-left: 10vh;
-    padding-top: 10px;
-    padding-bottom: 15px;
   }
 
   .knowledge,
   .hobbies,
   .tools {
     box-sizing: border-box;
-    border: 4px solid #8d8d8d;
-    width: 60%;
+    border: 4px solid #b4f5f0;
+    width: 50%;
     box-shadow: 10px 10px 5px 0 #181818;
     text-align: center;
     border-radius: 4px;
     background-color: #222;
+    opacity: 0.8;
+  }
+
+  .knowledge,
+  .hobbies,
+  .tools:hover{
+    opacity: 1;
   }
 
   .knowledge-title,
@@ -176,7 +187,7 @@ a {
   .tools h2 {
     font-size: 5vh;
     font-weight: 400;
-    color: #b4f5f0;
+    color: #8d8d8d;
   }
 
   .hobbies-list,
@@ -189,8 +200,21 @@ a {
     align-items: center;
   }
 
-  .section-2 {
+  .about-container-items-p {
+    font-size: 23px;
+
   }
+
+ .about-container-icons{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+ }
+
+ .about-container-icons img{
+   width: 100px;
+   margin-left: 120px;
+   margin-top: 40px;
+ }
 }
 /*
     .knowledge img {
@@ -212,6 +236,9 @@ a {
     font-size: 40px;
     display: flex;
   }
+
+
+
   .bubble {
     position: absolute;
     bottom: 0;

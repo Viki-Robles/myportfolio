@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Menu from "../Menu/Menu";
 import "./About.css";
-import whitebulb from '../About/images/whitebulb.png';
-import racket from '../About/images/racket.png';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import tools from "./images/tools.png";
+import whitebulb from "./images/whitebulb.png";
 
 export default function About() {
   useEffect(() => {
@@ -30,11 +30,15 @@ export default function About() {
               <span>.</span>
               <span>.</span>
             </h2>
-            <p className="about-container-items-p">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br />
-              Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.<br />
-              Donec eu libero sit amet quam egestas semper.
-              Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            <p className="about-container-items-p"><br/> My name is Vicky Vasilopoulou, I worked in Sales for most of my career
+            and started coding in my free time as a hobby on the side. <br/>What started as a hobby has now become a fully flegded passion.
+            Which meant I enrolled in a 12 week Bootcamp to develop <br/>my skills and envelop myself in this world.
+            Coding is my passion, it's stimulating, I love the challenge, the intricacies and aspire<br/> to go on and be the best on my field.</p>
           </section>
+          <div className="about-container-icons" data-aos="fade-right">
+          <img src={whitebulb}/>
+          <img src={tools}/>
+          </div>
           <section className="section-2" data-aos="fade-left">
             <div className="about-container-list">
               <div className="knowledge" data-aos="fade-left">
@@ -45,10 +49,6 @@ export default function About() {
               <div className="tools" data-aos="fade-bottom">
                 <h2 className="tools-title">Tools</h2>
                 <p className="tools-list">Git, Trello, Heroku, ZEIT</p>
-              </div>
-              <div className="hobbies hobbies" data-aos="fade-left">
-                <h2 className="hobbies-title">Passion</h2>
-                <p className="hobbies-list">Squash</p>
               </div>
             </div>
           </section>
