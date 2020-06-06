@@ -45,29 +45,22 @@ a {
 
 .about-container-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .knowledge,
-.hobbies,
 .tools {
   box-sizing: border-box;
   border: 2px solid #8d8d8d;
-  width: 100%;
+  width: 80%;
   box-shadow: 10px 10px 5px 0 #181818;
   text-align: center;
   border-radius: 4px;
   margin: 4px;
   background-color: #222;
-  opacity: 0.6;
+  margin-left: 40px;
   
 }
-
-.knowledge,
-  .hobbies,
-  .tools:hover{
-    opacity: 1;
-  }
 
 .knowledge-title,
 .hobbies-title,
@@ -92,6 +85,17 @@ a {
   align-items: center;
 }
 
+.about-container-icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-container-icons img{
+  width: 70px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
 
 @media (min-width: 600px) {
   ul {

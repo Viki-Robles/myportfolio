@@ -46,7 +46,7 @@ export default function About() {
                 <p className="knowledge-list">JavaScript, ReactJS, NodeJS<br /> Express,
                 HTML5, CSS, Agile<br /> UI Design</p>
               </div>
-              <div className="tools" data-aos="fade-bottom">
+              <div className="tools">
                 <h2 className="tools-title">Tools</h2>
                 <p className="tools-list">Git, Trello, Heroku, ZEIT</p>
               </div>
