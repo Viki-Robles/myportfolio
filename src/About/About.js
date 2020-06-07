@@ -29,10 +29,10 @@ export default function About() {
               <span>.</span>
               <span>.</span>
             </h2>
-            <p className="about-container-items-p">Hi and nice to meet you,<br/> <br/>My name is Vicky Vasilopoulou and I have been working in Sales for most of my career
-            and started coding in my free time as a hobby on the side. <br/>What started as a hobby has now become a fully flegded passion.
-            Which meant I enrolled in a 12 week Bootcamp to develop <br/>my skills and envelop myself in this world.
-            Coding is my passion, it's stimulating, I love the challenge, the intricacies and aspire<br/> to go on and be the best on my field.</p>
+            <p className="about-container-items-p">Hi and nice to meet you, <br/>My name is Vicky Vasilopoulou and I have been working in Sales for most of my career
+            and started coding in my free time as a hobby on the side.What started as a hobby has now become a fully flegded passion.
+            Which meant I enrolled in a 12 week Bootcamp to develop my skills and envelop myself in this world.
+            Coding is my passion, it's stimulating, I love the challenge, the intricacies and aspire to go on and be the best on my field.</p>
           </section>
           <div className="about-container-icons" data-aos="fade-right">
           <img src={whitebulb}/>
