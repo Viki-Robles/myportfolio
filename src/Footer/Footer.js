@@ -8,16 +8,16 @@ export default function Footer(props) {
     <>
       <div className="footer">
         <item>
-         <li><a href={props.linkedin} target="_blank">
-            <img src={linkedin} className="icon_footer" alt=""/>
+          <li><a href={props.linkedin} target="_blank">
+            <img src={linkedin} className="icon_footer" alt="" />
           </a>
           </li>
         </item>
         <item>
           <li>
-          <a href={props.gitHhub} target="_blank">
-            <img src={github} className="icon_footer" alt=""/>
-          </a>
+            <a href={props.gitHhub} target="_blank">
+              <img src={github} className="icon_footer" alt="" />
+            </a>
           </li>
         </item>
       </div>

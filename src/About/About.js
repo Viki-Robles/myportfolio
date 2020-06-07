@@ -36,6 +36,7 @@ export default function About() {
           </section>
           <div className="about-container-icons" data-aos="fade-right">
           <img src={whitebulb}/>
+          <h3 className="about-container-subtitle">Hover me...</h3>
           <img src={tools}/>
           </div>
           <section className="section-2">
