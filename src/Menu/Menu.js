@@ -6,6 +6,7 @@ import eyeIcon from "./MenuIcons/eyeIcon.png";
 import MenuButton from "./MenuButton/MenuButton";
 import { Link } from "react-router-dom";
 import Footer from '../Footer/Footer';
+import mail from "./MenuIcons/mail.png";
 
 
 export default class Menu extends Component {
@@ -44,6 +45,12 @@ export default class Menu extends Component {
             <Link to="/projects">
               <img className="icon" src={eyeIcon} alt="projectsIcon" />
               <div className="projects">Work</div>
+            </Link>
+          </div>
+          <div className="Menu-link">
+            <Link to="/projects">
+              <img className="icon" src={mail} alt="projectsIcon" />
+              <div className="projects">Mail</div>
             </Link>
           </div>
         </div>

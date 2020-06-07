@@ -2,10 +2,9 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Menu from "../Menu/Menu";
 import "./About.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import tools from "./images/tools.png";
 import whitebulb from "./images/whitebulb.png";
+import AOS from "aos";
 
 export default function About() {
   useEffect(() => {
@@ -14,9 +13,9 @@ export default function About() {
   return (
     <Link to="/about">
       <Menu />
-      <div className="about-container">
+      <div className="about-container" data-aos="fade in">
         <div className="about-container-items">
-          <section className="section-1" data-aos="fade-in">
+          <section className="section-1">
             <h2 className="about">
               <span>M</span>
               <span>y</span>
@@ -30,7 +29,7 @@ export default function About() {
               <span>.</span>
               <span>.</span>
             </h2>
-            <p className="about-container-items-p"><br/> My name is Vicky Vasilopoulou, I worked in Sales for most of my career
+            <p className="about-container-items-p">Hi and nice to meet you,<br/> <br/>My name is Vicky Vasilopoulou and I have been working in Sales for most of my career
             and started coding in my free time as a hobby on the side. <br/>What started as a hobby has now become a fully flegded passion.
             Which meant I enrolled in a 12 week Bootcamp to develop <br/>my skills and envelop myself in this world.
             Coding is my passion, it's stimulating, I love the challenge, the intricacies and aspire<br/> to go on and be the best on my field.</p>
@@ -39,9 +38,9 @@ export default function About() {
           <img src={whitebulb}/>
           <img src={tools}/>
           </div>
-          <section className="section-2" data-aos="fade-left">
-            <div className="about-container-list">
-              <div className="knowledge" data-aos="fade-left">
+          <section className="section-2">
+            <div className="about-container-list" data-aos="fade-left">
+              <div className="knowledge">
                 <h2 className="knowledge-title">Knowledge</h2>
                 <p className="knowledge-list">JavaScript, ReactJS, NodeJS<br /> Express,
                 HTML5, CSS, Agile<br /> UI Design</p>
