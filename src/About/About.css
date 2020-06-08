@@ -51,11 +51,11 @@ a {
 .knowledge,
 .tools {
   box-sizing: border-box;
-  border: 2px solid #8d8d8d;
+  border: 2px solid #b4f5f0;
   width: 80%;
   box-shadow: 10px 10px 5px 0 #181818;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 10px;
   margin: 4px;
   background-color: #222;
   margin-left: 40px;
@@ -88,20 +88,15 @@ a {
 
 .about-container-icons{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .about-container-icons img{
   width: 50px;
   margin-top: 40px;
-  margin-left: 20px;
+  margin-left:40%;
 }
 
-.about-container-subtitle {
-  font-family: 'Shadows Into Light', cursive;
-  margin-left: 20px;
-  font-size: 30px;
-}
 
 @media (min-width: 600px) {
   ul {
@@ -177,6 +172,7 @@ a {
     background-color: #222;
     opacity: 0.8;
     margin-top: 50px;
+    border-radius: 10px;
   }
 
   .knowledge,
@@ -213,11 +209,11 @@ a {
 
  .about-container-icons {
    display: grid;
-   grid-template-columns: 2fr 1fr 2fr;
+   grid-template-columns: 2fr 1fr;
  }
 
  .about-container-icons img {
-   margin-left: 40%;
+   margin-left: 10%;
    margin-top: 40px;
    width: 70px;
  }
