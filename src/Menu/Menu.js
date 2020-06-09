@@ -43,8 +43,8 @@ export default class Menu extends Component {
           </div>
           <div className="Menu-link">
             <Link to="/projects">
-              <img className="icon" src={eyeIcon} alt="projectsIcon" />
-              <div className="projects">Work</div>
+              <img className="icon" src={eyeIcon} alt="workIcon" />
+              <div className="work">Work</div>
             </Link>
           </div>
           <div className="Menu-link">

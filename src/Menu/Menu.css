@@ -36,23 +36,25 @@
 .Menu-link .home,
 .aboutpage,
 .mail,
-.projects {
+.work{
   display: none;
 }
-.Menu-link:hover .home {
-  display: block;
-  margin-left: 1vh;
-  font-weight: 150;
-}
+
 .Menu-link:hover img {
   display: none;
 }
 
 .home,
 .aboutpage,
-.projects,
+.work,
 .mail {
   color: #b4f5f0;
+}
+
+.Menu-link:hover .home {
+  display: block;
+  margin-left: 1vh;
+  font-weight: 150;
 }
 
 .Menu-link:hover .aboutpage {
@@ -61,7 +63,7 @@
   font-weight: 150;
 }
 
-.Menu-link:hover .projects {
+.Menu-link:hover .work {
   display: block;
   margin-left: 1vh;
   font-weight: 150;
@@ -116,40 +118,48 @@
     margin-left: 15px;
     display: block;
   }
-  .Menu-link:hover .home {
-    display: block;
-    margin-left: 1vh;
-    font-size: 14px;
-  }
+
   .Menu-link:hover img {
     display: none;
   }
 
   .home,
   .aboutpage,
-  .projects,
+  .work,
   .mail {
     color: #b4f5f0;
   }
   .Menu-link .mail,
-  .projects,
+  .work,
   .aboutpage,
   .home {
     display: none;
+  }
+
+  .Menu-link:hover .home {
+    display: block;
+    margin-left: 1vh;
+    font-size: 14px;
+    font-weight: 150;
   }
   .Menu-link:hover .aboutpage {
     display: block;
     font-weight: 150;
     font-size: 14px;
+    margin-left: 1vh;
   }
-  .Menu-link:hover .projects {
+  .Menu-link:hover .work {
     display: block;
     font-size: 14px;
     font-weight: 150;
+    margin-left: 1vh;
+
   }
   .Menu-link:hover .mail {
     display: block;
     font-weight: 150;
     font-size: 14px;
+    margin-left: 1vh;
+
   }
 }
