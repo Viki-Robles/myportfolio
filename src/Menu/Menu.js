@@ -48,13 +48,14 @@ export default class Menu extends Component {
             </Link>
           </div>
           <div className="Menu-link">
-            <Link to="/projects">
-              <img className="icon" src={mail} alt="projectsIcon" />
-              <div className="projects">Mail</div>
+            <Link to="/mail">
+              <img className="icon" src={mail} alt="mailIcon" />
+              <div className="mail">Mail</div>
             </Link>
           </div>
         </div>
-        <Footer linkedin="https://www.linkedin.com/in/vicky-vasilopoulou-52230111b/"
+        <Footer
+          linkedin="https://www.linkedin.com/in/vicky-vasilopoulou-52230111b/"
           gitHub="https://github.com/Viki-Robles" />
       </div>
     );

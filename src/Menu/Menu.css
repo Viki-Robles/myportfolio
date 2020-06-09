@@ -1,8 +1,3 @@
-/*
-color: #82E8D7
-pallete: #B4F5F0, #2CEEF0, #0476D0
-*/
-
 .Menu {
   display: flex;
 }
@@ -30,7 +25,6 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
 
 .MenuButton img {
   width: 5vh;
-  
 }
 .icon {
   width: 23px;
@@ -39,7 +33,10 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
   margin: 10px;
 }
 
-.Menu-link .home {
+.Menu-link .home,
+.aboutpage,
+.mail,
+.projects {
   display: none;
 }
 .Menu-link:hover .home {
@@ -53,37 +50,26 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
 
 .home,
 .aboutpage,
-.skills,
-.projects {
+.projects,
+.mail {
   color: #b4f5f0;
 }
 
-.Menu-link .aboutpage {
-  display: none;
-}
 .Menu-link:hover .aboutpage {
   display: block;
   margin-left: 1vh;
   font-weight: 150;
 }
 
-.Menu-link .projects {
-  display: none;
-}
 .Menu-link:hover .projects {
   display: block;
   margin-left: 1vh;
   font-weight: 150;
 }
-
-.Menu-link .skills {
-  display: none;
-}
-.Menu-link:hover .skills {
+.Menu-link:hover .mail {
   display: block;
   font-weight: 150;
 }
-
 .logo {
   display: none;
 }
@@ -130,10 +116,6 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
     margin-left: 15px;
     display: block;
   }
-
-  .Menu-link .home {
-    display: none;
-  }
   .Menu-link:hover .home {
     display: block;
     margin-left: 1vh;
@@ -145,12 +127,14 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
 
   .home,
   .aboutpage,
-  .skills,
-  .projects {
+  .projects,
+  .mail {
     color: #b4f5f0;
   }
-
-  .Menu-link .aboutpage {
+  .Menu-link .mail,
+  .projects,
+  .aboutpage,
+  .home {
     display: none;
   }
   .Menu-link:hover .aboutpage {
@@ -158,20 +142,12 @@ pallete: #B4F5F0, #2CEEF0, #0476D0
     font-weight: 150;
     font-size: 14px;
   }
-
-  .Menu-link .projects {
-    display: none;
-  }
   .Menu-link:hover .projects {
     display: block;
     font-size: 14px;
     font-weight: 150;
   }
-
-  .Menu-link .skills {
-    display: none;
-  }
-  .Menu-link:hover .skills {
+  .Menu-link:hover .mail {
     display: block;
     font-weight: 150;
     font-size: 14px;

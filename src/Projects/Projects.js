@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 
-export default function Projects({ picture, details, link }) {
+export default function Projects({ picture, details }) {
 
   return (
     <>
@@ -19,7 +19,3 @@ export default function Projects({ picture, details, link }) {
     </>
   );
 }
-
-/**<button
-        className="projects-button" >
-        <a href={link}>Visit Site</a></button> */

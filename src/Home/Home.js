@@ -45,6 +45,3 @@ export default function Home(props) {
     </>
   );
 }
-
-
-/**&#120121; */
