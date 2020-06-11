@@ -4,6 +4,7 @@ import Menu from "../Menu/Menu";
 import "./About.css";
 import tools from "./images/tools.png";
 import whitebulb from "./images/whitebulb.png";
+import workshop from "./images/workshop.png";
 import AOS from "aos";
 
 export default function About() {
@@ -35,11 +36,17 @@ export default function About() {
             Coding is my passion, it's stimulating, I love the challenge, the intricacies and aspire to go on and be the best on my field.</p>
           </section>
           <div className="about-container-icons" data-aos="fade-right">
-          <img src={whitebulb}/>
-          <img src={tools}/>
+          <img src={workshop} alt="" />
+          <img src={whitebulb} alt="" />
+          <img src={tools} alt="" />
           </div>
           <section className="section-2">
             <div className="about-container-list" data-aos="fade-left">
+            <div className="workshop">
+                <h2 className="workshop-title">Workshop</h2>
+                <p className="workshop-list">I delivered, during the Bootcamp, a workshop about React Unit Testing with Jest and Enzyme</p>
+                <p>Link: </p>
+              </div>
               <div className="knowledge">
                 <h2 className="knowledge-title">Knowledge</h2>
                 <p className="knowledge-list">JavaScript, ReactJS, NodeJS<br /> Express,
@@ -56,13 +63,3 @@ export default function About() {
     </Link>
   );
 }
-
-/*<div className="about-container-bubbles">
-            <div className="bubbles">
-              <div className="bubble">JS</div>
-              <div className="bubble">ReactJS</div>
-              <div className="bubble">HTML</div>
-              <div className="bubble">CSS</div>
-              <div className="bubble">NodeJs</div>
-            </div>
-          </div>*/

@@ -49,6 +49,7 @@ a {
 }
 
 .knowledge,
+.workshop,
 .tools {
   box-sizing: border-box;
   border: 2px solid #b4f5f0;
@@ -64,19 +65,19 @@ a {
 }
 
 .knowledge-title,
-.hobbies-title,
+.workshop-title,
 .tools-title {
   font-weight: 400;
 }
 
-.hobbies h2,
+.workshop h2,
 .knowledge h2,
 .tools h2 {
   font-weight: 400;
-  color: #b4f5f0;
+  color: #8d8d8d;
 }
 
-.hobbies-list,
+.workshop-list,
 .tools-list,
 .knowledge-list {
   line-height: 20px;
@@ -88,13 +89,13 @@ a {
 
 .about-container-icons{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .about-container-icons img{
   width: 50px;
   margin-top: 40px;
-  margin-left:40%;
+  margin-left:30%;
 }
 
 
@@ -148,22 +149,14 @@ a {
     color: #b4f5f0;
     font-size: 8vh;
   }
-  .tags {
-    display: none;
-    color: #515152;
-    margin-left: 10vh;
-    font-size: 18px;
-    font-family: "La Belle Aurore", cursive;
-    margin-top: 10vh;
-  }
 
   .about-container-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .knowledge,
-  .tools {
+  .tools, .workshop {
     box-sizing: border-box;
     border: 4px solid #b4f5f0;
     box-shadow: 10px 10px 5px 0 #181818;
@@ -176,22 +169,27 @@ a {
   }
 
   .knowledge,
+  .workshop,
   .tools:hover{
     opacity: 1;
   }
 
   .knowledge-title,
+  .workshop-title,
   .tools-title {
     font-size: 5vh;
     font-weight: 400;
   }
+
   .knowledge h2,
+  .workshop h2,
   .tools h2 {
     font-size: 5vh;
     font-weight: 400;
     color: #8d8d8d;
   }
   .tools-list,
+  .workshop-list,
   .knowledge-list {
     line-height: 20px;
     color: #fff;
@@ -209,7 +207,7 @@ a {
 
  .about-container-icons {
    display: grid;
-   grid-template-columns: 2fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
  }
 
  .about-container-icons img {
