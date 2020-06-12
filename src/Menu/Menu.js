@@ -48,10 +48,10 @@ export default class Menu extends Component {
             </Link>
           </div>
           <div className="Menu-link">
-            <Link to="/mail">
+            <a href="mailto:vasiliki.robles@gmail.com">
               <img className="icon" src={mail} alt="mailIcon" />
               <div className="mail">Mail</div>
-            </Link>
+            </a>
           </div>
         </div>
         <Footer

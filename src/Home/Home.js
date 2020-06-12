@@ -35,10 +35,11 @@ export default function Home(props) {
           {" "}
           Full Stack Developer, based in London, who loves building Digital
           Beauty.
-        </h4>  
+        </h4> 
+        <a href="mailto:vasiliki.robles@gmail.com">
         <button className="homepage-button">Contact me</button>
+        </a>
         <h3>Contact Number: +44 7438 577 974</h3>
-        <h3>Email: vasiliki.robles@gmail.com</h3>
       </div>
       </div>
     </div>
