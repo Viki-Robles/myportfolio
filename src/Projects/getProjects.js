@@ -1,5 +1,5 @@
 import kodflix from "../Projects/images/kodflix.png";
-import teamproject from "../Projects/images/teamproject.png";
+import portfolio from "../Projects/images/portfolio.png";
 
 export default function getProjects() {
   return [
@@ -11,7 +11,7 @@ export default function getProjects() {
     {
       id: "Burger Project",
       title: "Portfolio Project",
-      picture: teamproject,
+      picture: portfolio,
       details: "",
       link: "https://portfolio-one-rosy.now.sh/"
     }
