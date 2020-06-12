@@ -199,10 +199,10 @@ h1 span:nth-child(7) {
     transform: translateY(-100px) rotate(180deg);
   }
   60% {
-    transform: translateY(0px) rotate(360deg);
+    transform: translateY(-100px) rotate(360deg);
   }
   100% {
-    transform: translateY(0px);
+    transform: translateY(0px) rotate(360deg);
   }
 }
 
