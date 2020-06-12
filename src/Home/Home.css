@@ -50,6 +50,7 @@ h1 span:nth-child(6) {
   margin-right: 4vh;
 }
 
+
 @keyframes animate {
   0% {
     transform: translateY(0px) rotate(0deg);
@@ -61,12 +62,11 @@ h1 span:nth-child(6) {
     transform: translateY(-100px) rotate(180deg);
   }
   60% {
-    transform: translateY(0px) rotate(360deg);
+    transform: translateY(-100px) rotate(360deg);
   }
   100% {
-    transform: translateY(0px);
+    transform: translateY(0px) rotate(360deg);
   }
-
 }
 
 h2 {
