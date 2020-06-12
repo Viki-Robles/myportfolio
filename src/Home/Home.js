@@ -39,7 +39,6 @@ export default function Home(props) {
         <a href="mailto:vasiliki.robles@gmail.com">
         <button className="homepage-button">Contact me</button>
         </a>
-        <h3>Contact Number: +44 7438 577 974</h3>
       </div>
       </div>
     </div>
