@@ -1,78 +1,55 @@
 .Menu {
-  display: flex;
+  background: #181818;;
 }
-
 .Menu-links {
   display: none;
 }
 
-.Menu-links.is-expanded {
-  display: flex;
-  justify-content: space-between;
-  background: #181818;
-  width: 100%;
-  position: absolute;
-  height: 8.5vh;
-}
-
 .MenuButton {
-  margin: 15px;
-  padding: 0px;
   background-color: transparent;
-  border: 0;
-  top: 0;
+  background: none;
+  border: none;
+  outline: none;
+  z-index: 2;
+  margin-right: 25px;
 }
 
 .MenuButton img {
-  width: 5vh;
-}
-.icon {
-  width: 23px;
-}
-.Menu-link {
-  margin: 10px;
+  width: 45px;
 }
 
-.Menu-link .home,
-.aboutpage,
-.mail,
-.work{
-  display: none;
-}
-
-.Menu-link:hover img {
-  display: none;
-}
-
-.home,
-.aboutpage,
-.work,
-.mail {
-  color: #b4f5f0;
-}
-
-.Menu-link:hover .home {
-  display: block;
-  margin-left: 1vh;
-  font-weight: 150;
-}
-
-.Menu-link:hover .aboutpage {
-  display: block;
-  margin-left: 1vh;
-  font-weight: 150;
-}
-
-.Menu-link:hover .work {
-  display: block;
-  margin-left: 1vh;
-  font-weight: 150;
-}
-.Menu-link:hover .mail {
-  display: block;
-  font-weight: 150;
-}
 .logo {
+  display: none;
+}
+
+.Menu-links.is-expanded {
+    display: flex;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    height: 60px;
+    background: #181818;
+    width: 100%;
+    position: fixed;
+    justify-content: space-evenly;
+
+}
+
+.Menu-links {
+  display: none;
+
+}
+
+.Menu-link img {
+  width: 30px;
+  margin-top: 10px;
+
+}
+
+.Menu-link .work,
+.aboutpage,
+.home,
+.mail {
   display: none;
 }
 
@@ -84,6 +61,7 @@
     top: 0;
     z-index: 3;
     background: #181818;
+    margin-left: 0;
   }
 
   .Menu-links {
@@ -99,9 +77,10 @@
 
   .Menu-link {
     margin: 5px;
+    display: block;
   }
 
-  .icon {
+  .Menu-link .icon {
     width: 23px;
     margin-left: 15px;
   }
@@ -153,13 +132,11 @@
     font-size: 14px;
     font-weight: 150;
     margin-left: 1vh;
-
   }
   .Menu-link:hover .mail {
     display: block;
     font-weight: 150;
     font-size: 14px;
     margin-left: 1vh;
-
   }
 }

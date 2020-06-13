@@ -30,9 +30,9 @@ export default function About() {
               <span>.</span>
               <span>.</span>
             </h2>
-            <p className="about-container-items-p">My name is Vicky Vasilopoulou and I have been working in Sales for most of my career
-            and started coding in my free time as a hobby on the side. What started as a hobby has now become a fully flegded passion.
-            Which meant I enrolled in a 8 week Bootcamp to develop my skills and envelop myself in this world.
+            <p className="about-container-items-p">My name is Vicky Vasilopoulou and I have been working in Sales for most of my career. I 
+            started coding in my free time as a hobby on the side and now become a fully flegded passion.
+            In April 2020 I enrolled in a 8 week Bootcamp to develop my skills and envelop myself in this world.
             Coding is my passion, it's stimulating, I love the challenge, the intricacies and aspire to go on and be the best on my field.</p>
           </section>
           <div className="about-container-icons" data-aos="fade-right">

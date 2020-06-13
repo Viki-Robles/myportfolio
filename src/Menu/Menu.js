@@ -17,9 +17,6 @@ export default class Menu extends Component {
 
   toggleState() {
     this.setState({ isExpanded: !this.state.isExpanded });
-    setTimeout(() => {
-      this.setState({ isExpanded: false })
-    }, 3000);
   }
 
   render() {
@@ -61,3 +58,6 @@ export default class Menu extends Component {
     );
   }
 }
+/**setTimeout(() => {
+      this.setState({ isExpanded: false })
+    }, 3000); */
