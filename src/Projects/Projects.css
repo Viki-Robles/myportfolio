@@ -21,10 +21,6 @@
     display: flex;
     margin: 0;
   }
-
-  .picture{
-    position: relative;
-  }
   .picture_icon {
     opacity: 0.8;
     width: 80%;

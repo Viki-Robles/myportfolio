@@ -25,7 +25,6 @@
 }
 
 .Menu-links.is-expanded {
-  opacity: 1;
   display: flex;
   float: left;
   overflow: hidden;
