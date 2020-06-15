@@ -16,6 +16,9 @@ a {
   color: #041f60;
 }
 
+.about-container-items {
+  margin-top: 15vh;
+}
 .about-container-items-p {
   font-weight: 300;
   color: white;
@@ -121,6 +124,10 @@ a {
   font-family: 'Shadows Into Light', cursive;
   font-size: 35px;
 
+}
+
+.about-container-items {
+  margin-top: 0;
 }
   .about-container-items-p {
     font-weight: 300;

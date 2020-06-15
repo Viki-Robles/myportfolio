@@ -1,5 +1,6 @@
 .Menu {
-  background: #181818;;
+  background: #181818;
+
 }
 .Menu-links {
   display: none;
@@ -15,7 +16,8 @@
 }
 
 .MenuButton img {
-  width: 45px;
+  width: 40px;
+  margin: 5px;
 }
 
 .logo {
@@ -23,27 +25,22 @@
 }
 
 .Menu-links.is-expanded {
-    display: flex;
-    float: left;
-    overflow: hidden;
-    text-align: center;
-    height: 60px;
-    background: #181818;
-    width: 100%;
-    position: fixed;
-    justify-content: space-evenly;
-
-}
-
-.Menu-links {
-  display: none;
-
+  opacity: 1;
+  display: flex;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  height: 60px;
+  background: #181818;
+  width: 100%;
+  justify-content: space-evenly;
+  z-index: 4;
+  transition: all .3s ease-out;
 }
 
 .Menu-link img {
   width: 30px;
   margin-top: 10px;
-
 }
 
 .Menu-link .work,
