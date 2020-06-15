@@ -15,7 +15,7 @@ export default function About(props) {
   return (
     <Link to="/about">
       <Menu />
-      <div className="about-container" data-aos="fade in">
+      <div className="about-container" data-aos="fade-in">
         <div className="about-container-items">
           <section className="section-1">
             <h2 className="about">
@@ -26,23 +26,19 @@ export default function About(props) {
               <span>o</span>
               <span>r</span>
               <span>y</span>
-              <span>.</span>
-              <span>.</span>
-              <span>.</span>
-              <span>.</span>
             </h2>
             <p className="about-container-items-p">My name is Vicky Vasilopoulou and I have been working in Sales for most of my career. I 
             started coding in my free time as a hobby on the side and now become a fully flegded passion.
             In April 2020 I enrolled in a 8 week Bootcamp to develop my skills and envelop myself in this world.
             Coding is my passion, it's stimulating, I love the challenge, the intricacies and aspire to go on and be the best on my field.</p>
           </section>
-          <div className="about-container-icons">
+          <div className="about-container-icons" data-aos="fade-right">
           <img src={workshop} alt="" />
           <img src={whitebulb} alt="" />
           <img src={tools} alt="" />
           </div>
           <section className="section-2">
-            <div className="about-container-list">
+            <div className="about-container-list" data-aos="fade-left">
             <div className="workshop">
                 <h2 className="workshop-title">React Testing Workshop</h2>
                 <div className='player-wrapper'>
