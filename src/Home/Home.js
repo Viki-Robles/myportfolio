@@ -33,7 +33,7 @@ export default function Home(props) {
         <h2 data-aos="fade-right">web developer.</h2>
         <h4 data-aos="fade-left">
           {" "}
-          Full Stack Developer, based in London, who loves building Digital
+          React Developer, based in London, who loves building Digital
           Beauty.
         </h4> 
         <a href="mailto:vasiliki.robles@gmail.com">
