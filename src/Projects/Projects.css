@@ -13,10 +13,11 @@
   display: none;
 }
 
-.picture{
-  position: relative;
-}
+
 @media (min-width: 600px) {
+  .picture{
+    position: relative;
+  }
   .projects {
     display: flex;
     margin: 0;

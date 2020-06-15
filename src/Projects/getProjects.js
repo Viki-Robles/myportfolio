@@ -1,5 +1,5 @@
 import kodflix from "../Projects/images/kodflix.png";
-import portfolio from "../Projects/images/portfolio.png";
+import drinkmeapp2 from "../Projects/images/drinkmeapp2.png";
 
 export default function getProjects() {
   return [
@@ -11,9 +11,9 @@ export default function getProjects() {
     {
       id: "Burger Project",
       title: "Portfolio Project",
-      picture: portfolio,
-      details: "",
-      link: "https://portfolio-one-rosy.now.sh/"
+      picture: drinkmeapp2,
+      details: "A team project application build in ReactJS and using public API's. The user can choose throughout the list a drink and redirect to the recipe page or click the random button and get a random drink.",
+      link: "https://drinkmeapp.herokuapp.com/"
     }
   ];
 }

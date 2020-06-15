@@ -16,7 +16,7 @@
 }
 
 .MenuButton img {
-  width: 40px;
+  width: 33px;
   margin: 5px;
 }
 
@@ -25,6 +25,7 @@
 }
 
 .Menu-links.is-expanded {
+  margin-left: 0;
   display: flex;
   float: left;
   overflow: hidden;
@@ -35,11 +36,14 @@
   justify-content: space-evenly;
   z-index: 4;
   transition: all .3s ease-out;
+
 }
 
 .Menu-link img {
-  width: 30px;
+  width: 25px;
   margin-top: 10px;
+  margin-left: -90px;
+
 }
 
 .Menu-link .work,

@@ -11,8 +11,8 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <div className="logo">&#120121;</div> 
           <Route exact path="/" component={Menu} />
-          <div className="logo">&#120121;</div>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={ProjectsGallery} />
