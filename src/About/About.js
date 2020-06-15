@@ -6,8 +6,9 @@ import tools from "./images/tools.png";
 import whitebulb from "./images/whitebulb.png";
 import workshop from "./images/workshop.png";
 import AOS from "aos";
+import ReactPlayer from "react-player";
 
-export default function About() {
+export default function About(props) {
   useEffect(() => {
     AOS.init({ duration: 3000, delay: 650 });
   }, []);
@@ -35,17 +36,20 @@ export default function About() {
             In April 2020 I enrolled in a 8 week Bootcamp to develop my skills and envelop myself in this world.
             Coding is my passion, it's stimulating, I love the challenge, the intricacies and aspire to go on and be the best on my field.</p>
           </section>
-          <div className="about-container-icons" data-aos="fade-right">
+          <div className="about-container-icons">
           <img src={workshop} alt="" />
           <img src={whitebulb} alt="" />
           <img src={tools} alt="" />
           </div>
           <section className="section-2">
-            <div className="about-container-list" data-aos="fade-left">
+            <div className="about-container-list">
             <div className="workshop">
-                <h2 className="workshop-title">Workshop</h2>
-                <p className="workshop-list">I delivered, during the Bootcamp, a workshop about React Unit Testing with Jest and Enzyme</p>
-                <p>Link: </p>
+                <h2 className="workshop-title">React Testing Workshop</h2>
+                <div className='player-wrapper'>
+                <ReactPlayer width='50%'
+                            height='50%'
+                            url="https://www.youtube.com/watch?v=U8clum9m2Cg"/>
+                </div>
               </div>
               <div className="knowledge">
                 <h2 className="knowledge-title">Knowledge</h2>
