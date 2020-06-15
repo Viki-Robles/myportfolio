@@ -53,7 +53,7 @@ export default class Menu extends Component {
         </div>
         <Footer
           linkedin="https://www.linkedin.com/in/vicky-vasilopoulou-52230111b/"
-          gitHub="https://github.com/Viki-Robles" />
+          github="https://github.com/Viki-Robles" />
       </div>
     );
   }

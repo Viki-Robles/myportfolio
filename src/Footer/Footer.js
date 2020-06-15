@@ -1,25 +1,19 @@
 import React from "react";
-import linkedin from '../Footer/Images/linkedin.png';
-import github from '../Footer/Images/github.png';
+import linkedinImage from '../Footer/Images/linkedin.png';
+import githubImage from '../Footer/Images/github.png';
 import './Footer.css';
 
-export default function Footer(props) {
+export default function Footer({linkedin, github}) {
   return (
     <>
       <div className="footer">
-        <item>
-          <li><a href={props.linkedin} target="_blank" rel="noopener noreferrer">
-            <img src={linkedin} className="icon_footer" alt="" />
+          <a href={linkedin} target="_blank" rel="noopener noreferrer">
+            <img src={linkedinImage} className="icon_footer" alt="" />
           </a>
-          </li>
-        </item>
-        <item>
-          <li>
-            <a href={props.gitHhub} target="_blank" rel="noopener noreferrer">
-              <img src={github} className="icon_footer" alt="" />
+
+            <a href={github} target="_blank" rel="noopener noreferrer">
+              <img src={githubImage} className="icon_footer" alt="" />
             </a>
-          </li>
-        </item>
       </div>
     </>
   );
