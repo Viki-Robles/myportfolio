@@ -57,21 +57,14 @@
     display: block;
   }
 
-  .projects-button {
-    display: block;
+
+  .projects-link a {
+    color:#b4f5f0;
     position: absolute;
     margin-left: 35vh;
-    margin-top: 50vh;
+    margin-top: -50vh;
     padding: 15px 30px;
-    background-color: transparent;
-    color: #b4f5f0;
-    font-size: 15px;
     font-weight: 400;
-    border-color: #b4f5f0;
-  }
-
-  .projects-button a {
-    color:#b4f5f0;
   }
 
   .projects-container .details p {

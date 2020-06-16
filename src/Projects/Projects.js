@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 
-export default function Projects({ picture, details }) {
+export default function Projects({ picture, details, link }) {
 
   return (
     <>
@@ -14,6 +14,9 @@ export default function Projects({ picture, details }) {
           />
           <div className="details">
             <p data-aos="fade-right">{details}</p></div>
+        </div>
+        <div className="projects-link">
+        <a href={link}>Visit Site</a>
         </div>
       </div>
     </>

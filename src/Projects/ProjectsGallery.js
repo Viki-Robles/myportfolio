@@ -16,13 +16,13 @@ export default function ProjectsGallery() {
         <Menu />
         <div className="projects" data-aos="fade-in">
           {
-            getProjects().map(project => (
+            getProjects().map(({ picture, link, details, id }) => (
               <Projects
-                key={project.id}
-                id={project.id}
-                picture={project.picture}
-                link={project.link}
-                details={project.details}
+                key={id}
+                id={id}
+                picture={picture}
+                link={link}
+                details={details}
               />
             ))}
         </div>
