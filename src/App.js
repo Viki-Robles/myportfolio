@@ -11,9 +11,9 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <ScrollMenu/>
+        <ScrollMenu />
         <div className="App">
-          <div className="logo">&#120121;</div> 
+          <div className="logo">&#120121;</div>
           <Route exact path="/" component={Menu} />
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />

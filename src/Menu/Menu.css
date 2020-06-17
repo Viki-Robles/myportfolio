@@ -35,15 +35,20 @@
   width: 100%;
   justify-content: space-evenly;
   z-index: 4;
-  transition: all .3s ease-out;
+  animation: mymove 1.5s ease-in;
+  animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+  position: relative;
+}
 
+@keyframes mymove {
+  from {left: 400px;}
+  to   {left: 0px;}
 }
 
 .Menu-link img {
   width: 25px;
   margin-top: 10px;
   margin-left: -90px;
-
 }
 
 .Menu-link .work,
