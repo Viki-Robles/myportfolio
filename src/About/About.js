@@ -8,7 +8,7 @@ import workshop from "./images/workshop.png";
 import AOS from "aos";
 import ReactPlayer from "react-player";
 
-export default function About(props) {
+export default function About() {
   useEffect(() => {
     AOS.init({ duration: 3000, delay: 650 });
   }, []);

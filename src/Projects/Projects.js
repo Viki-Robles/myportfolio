@@ -16,7 +16,7 @@ export default function Projects({ picture, details, link }) {
             <p data-aos="fade-right">{details}</p></div>
         </div>
         <div className="projects-link">
-        <a href={link}>Visit Site</a>
+        <a href={link} target="_blank" rel="noopener noreferrer">Visit Site</a>
         </div>
       </div>
     </>

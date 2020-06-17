@@ -29,7 +29,6 @@
   }
 
   .projects-container .picture .picture_icon {
-    overflow: hidden;
     margin-left: 60px;
   }
 
@@ -70,4 +69,5 @@
   .projects-container .details p {
     margin-left: 66px;
   }
+
 }
