@@ -1,22 +1,26 @@
 import React from "react";
 import "./Projects.css";
 
-export default function Projects({ picture, details, link }) {
+export default function Projects({ picture, details, link, title }) {
 
   return (
     <>
-      <div className="projects-container">
-        <div className="picture">
+      <div className="projects-container" data-aos="fade-left">
+        <div className="projects-picture">
           <img
             src={picture}
             alt="picture_icon"
             className="picture_icon"
           />
-          <div className="details">
-            <p data-aos="fade-right">{details}</p></div>
         </div>
         <div className="projects-link">
-        <a href={link} target="_blank" rel="noopener noreferrer">Visit Site</a>
+         <h4>{title}</h4>
+          <div className="projects-details">
+            <p data-aos="fade-right">{details}</p>
+          </div>
+          <a href={link}
+            target="_blank"
+            rel="noopener noreferrer">Visit Site</a>
         </div>
       </div>
     </>

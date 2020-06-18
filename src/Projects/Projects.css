@@ -1,73 +1,89 @@
-.picture_icon {
-  width: 100%;
-  opacity: 0.6;
+.projects{
+  display: grid;
+  grid-gap: 20px;
+
 }
 
-.projects-button {
-  display: none;
-}
-
-.projects-container .picture .details {
-  position: absolute;
-  top: 35vh;
-  display: none;
-}
-
-
-@media (min-width: 600px) {
-  .picture{
+.projects-header{
+    color: white;
+    font-size: 6vh;
+    font-weight: 400;
     position: relative;
-  }
+    margin-left: 10px;
+    margin-top: 15vh;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  border: 4px solid #b4f5f0;
+  border-radius: 6px;
+  width: 80%;
+}
+
+.projects-picture img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.projects-details {
+  color: white;
+  font-size: 13px;
+}
+
+.projects-link {
+  margin-left: 20px;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #8d8d8d;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+@media(min-width: 600px) {
+
   .projects {
     display: flex;
-    margin: 0;
+    margin-top: 8%;
   }
-  .picture_icon {
-    opacity: 0.8;
-    width: 80%;
-    height: 100vh;
-  }
-
-  .projects-container .picture .picture_icon {
-    margin-left: 60px;
-  }
-
-  .projects-container .picture .picture_icon {
-    max-width: 100%;
-    transition: transform 2s;
-
-  }
-
-  .projects-container .picture:hover .picture_icon {
-    position: relative;
-    transform: scale(1.2);
-    opacity: 0.1;
-  }
-
-  .projects-container .picture .details {
-    position: absolute;
-    top: 35vh;
-    display: none;
-  }
-
-  .projects-container .picture:hover .details {
-    position: absolute;
+  .projects-header {
     color: white;
-    display: block;
-  }
-
-
-  .projects-link a {
-    color:#b4f5f0;
-    position: absolute;
-    margin-left: 35vh;
-    margin-top: -50vh;
-    padding: 15px 30px;
+    font-size: 6vh;
     font-weight: 400;
+    margin-left: 80px;
   }
 
-  .projects-container .details p {
-    margin-left: 66px;
+ .projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  width: 100%;
+  border: 4px solid #b4f5f0;
+  margin-left: 80px;
+  grid-gap: 40px;
+  border-radius: 6px;
+ }
+  
+  .projects-picture img{
+   width: 100%;
+   padding: 10px;
   }
 
+  .projects-details {
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+  }
+
+  .projects a {
+    text-decoration: none;
+    color: #8d8d8d;
+    margin-top: 50px;
+    font-size: 20px;
+  }
 }
+

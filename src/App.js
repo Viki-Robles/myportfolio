@@ -15,9 +15,9 @@ class App extends Component {
         <div className="App">
           <div className="logo">&#120121;</div>
           <Route exact path="/" component={Menu} />
+          <Route exact path="/projects" component={ProjectsGallery} />
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={ProjectsGallery} />
         </div>
       </Router>
     );
@@ -26,3 +26,5 @@ class App extends Component {
 
 export default App;
 
+/*          
+*/

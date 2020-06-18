@@ -58,6 +58,3 @@ export default class Menu extends Component {
     );
   }
 }
-/**setTimeout(() => {
-      this.setState({ isExpanded: false })
-    }, 3000); */
