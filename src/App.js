@@ -5,13 +5,11 @@ import Menu from "./Menu/Menu";
 import Home from "./Home/Home";
 import About from "./About/About";
 import ProjectsGallery from "./Projects/ProjectsGallery";
-import ScrollMenu from "./ScrollMenu/ScrollMenu";
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <ScrollMenu />
         <div className="App">
           <div className="logo">&#120121;</div>
           <Route exact path="/" component={Menu} />
