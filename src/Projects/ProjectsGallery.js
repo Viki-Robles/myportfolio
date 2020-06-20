@@ -12,21 +12,21 @@ export default function ProjectsGallery() {
   }, []);
   return (
     <>
-        <Menu />
-        <h2 className="projects-header" data-aos="fade-left">Project Work</h2>
-        <div className="projects">
-          {
-            getProjects().map(({ picture, link, details, id, title }) => (
-              <Projects
-                key={id}
-                id={id}
-                picture={picture}
-                link={link}
-                details={details}
-                title={title}
-              />
-            ))}
-        </div>
+      <Menu />
+      <h2 className="projects-header" data-aos="fade-left">Project Work</h2>
+      <div className="projects">
+        {
+          getProjects().map(({ picture, link, details, id, title }) => (
+            <Projects
+              key={id}
+              id={id}
+              picture={picture}
+              link={link}
+              details={details}
+              title={title}
+            />
+          ))}
+      </div>
     </>
   );
 }

@@ -32,8 +32,7 @@ export default function Home(props) {
         <div className="homePage-content">
         <h2 data-aos="fade-right">web developer.</h2>
         <h4 data-aos="fade-left">
-          {" "}
-          React Developer, based in London, who loves building Digital
+          Web Developer, based in London, who loves building Digital
           Beauty.
         </h4> 
         <a href="mailto:vasiliki.robles@gmail.com">
