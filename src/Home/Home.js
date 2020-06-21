@@ -23,7 +23,7 @@ export default function Home(props) {
           <br />
           <span>I'</span>
           <span>m</span>
-          <span> &#120121;</span>
+          <span>&#120121;</span>
           <span>i</span>
           <span>c</span>
           <span>k</span>
@@ -44,3 +44,6 @@ export default function Home(props) {
     </>
   );
 }
+
+/**          <span> &#120121;</span>
+ */
