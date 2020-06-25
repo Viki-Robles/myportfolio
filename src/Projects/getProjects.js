@@ -3,11 +3,13 @@ import drinkmeapp2 from "../Projects/images/drinkmeapp2.png";
 
 export default function getProjects() {
   return [
-    { id: "Kodflix", 
-    title: "KodFlix", 
-    picture: kodflix, 
-    details: "A front-end development app using extensively ReactJS components and JavaScript simulating the production of Netflix." ,
-    link: "https://kodflix-phi.now.sh/"},
+    {
+      id: "Kodflix",
+      title: "KodFlix",
+      picture: kodflix,
+      details: "A front-end development app using extensively ReactJS components and JavaScript simulating the production of Netflix.",
+      link: "https://kodflix-phi.now.sh/"
+    },
     {
       id: "Burger Project",
       title: "DrinkMeApp",
