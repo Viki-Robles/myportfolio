@@ -55,7 +55,6 @@ a {
 .workshop,
 .tools {
   box-sizing: border-box;
-  border: 2px solid #b4f5f0;
   width: 80%;
   box-shadow: 10px 10px 5px 0 #181818;
   text-align: center;
@@ -165,17 +164,16 @@ a {
   .about-container-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 15px;
   }
 
   .knowledge,
   .tools, .workshop {
     box-sizing: border-box;
-    border: 4px solid #b4f5f0;
-    box-shadow: 10px 10px 5px 0 #181818;
+    box-shadow: 20px 15px 5px 0px #181818;
     text-align: center;
     border-radius: 4px;
     background-color: #222;
-    opacity: 0.8;
     border-radius: 10px;
     height: auto;
   }

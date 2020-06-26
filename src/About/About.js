@@ -18,7 +18,7 @@ export default function About() {
       <div className="about-container" data-aos="fade-in">
         <div className="about-container-items">
           <section className="section-1">
-            <h2 className="about">
+            <h2 className="about" data-aos="fade-left">
               <span>M</span>
               <span>y</span>
               <span>S</span>
@@ -32,13 +32,13 @@ export default function About() {
             Recently I enrolled in a 8 week Bootcamp to develop my skills and envelop myself in this world.
             Coding is stimulating, I love the challenge, the intricacies and aspire to go on and be the best in my field.</p>
           </section>
-          <div className="about-container-icons" data-aos="fade-right">
+          <div className="about-container-icons">
             <img src={workshop} alt="" />
             <img src={whitebulb} alt="" />
             <img src={tools} alt="" />
           </div>
           <section className="section-2">
-            <div className="about-container-list" data-aos="fade-left">
+            <div className="about-container-list">
               <div className="workshop">
                 <h2 className="workshop-title">React Testing Workshop</h2>
                 <div className='player-wrapper'>
