@@ -32,8 +32,8 @@ export default function Home(props) {
         <div className="homePage-content">
         <h2 data-aos="fade-right">web developer.</h2>
         <h4 data-aos="fade-left">
-          Web Developer, based in London, who loves building Digital
-          Beauty.
+          Web Developer, based in London, who loves building digital
+          time warps.
         </h4> 
         <a href="mailto:vasiliki.robles@gmail.com">
         <button className="homepage-button">Contact me</button>

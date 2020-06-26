@@ -28,9 +28,9 @@ export default function About() {
               <span>y</span>
             </h2>
             <p className="about-container-items-p">My name is Vicky Vasilopoulou and I have been working in Sales for most of my career. I
-            started coding in my free time as a hobby on the side and now become a fully flegded passion.
+            started coding in my free time as a hobby on the side and has now become a fully flegded passion.
             Recently I enrolled in a 8 week Bootcamp to develop my skills and envelop myself in this world.
-            Coding is my passion, it's stimulating, I love the challenge, the intricacies and aspire to go on and be the best on my field.</p>
+            Coding is stimulating, I love the challenge, the intricacies and aspire to go on and be the best in my field.</p>
           </section>
           <div className="about-container-icons" data-aos="fade-right">
             <img src={workshop} alt="" />
