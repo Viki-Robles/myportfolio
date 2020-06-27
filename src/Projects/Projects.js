@@ -1,11 +1,11 @@
 import React from "react";
 import "./Projects.css";
 
-export default function Projects({ picture, details, link, title }) {
+export default function Projects({ picture, details, link, title, technologies }) {
 
   return (
     <>
-      <div className="projects-container" data-aos="fade-in">
+      <div className="projects-container">
         <div className="projects-picture">
           <img
             src={picture}
@@ -18,6 +18,7 @@ export default function Projects({ picture, details, link, title }) {
           <div className="projects-details">
             <p>{details}</p>
           </div>
+          <h4 className="technologies">Technologies: {technologies}</h4>
           <a href={link}
             target="_blank"
             rel="noopener noreferrer">Visit Site</a>

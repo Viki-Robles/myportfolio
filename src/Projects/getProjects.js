@@ -8,14 +8,16 @@ export default function getProjects() {
       title: "KodFlix",
       picture: kodflix,
       details: "A front-end development app using extensively ReactJS components and JavaScript simulating the production of Netflix.",
-      link: "https://kodflix-phi.now.sh/"
+      link: "https://kodflix-phi.now.sh/",
+      technologies: "ReactJS, JavaScript, HTML5, CSS3, nodeJS"
     },
     {
-      id: "Burger Project",
+      id: "DrinkMeApp",
       title: "DrinkMeApp",
       picture: drinkmeapp2,
       details: "A team project application build in ReactJS and using public API's. The user can choose throughout the list a drink and redirect to the recipe page or click the random button and get a random drink.",
-      link: "https://drinkmeapp.herokuapp.com/"
+      link: "https://drinkmeapp.herokuapp.com/",
+      technologies: "ReactJS, JavaScript, HTML5, CSS3"
     }
   ];
 }

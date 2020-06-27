@@ -14,9 +14,9 @@ export default function ProjectsGallery() {
     <>
       <Menu />
       <h2 className="projects-header" data-aos="fade-left">Project Work</h2>
-      <div className="projects">
+      <div className="projects" data-aos="fade-in">
         {
-          getProjects().map(({ picture, link, details, id, title }) => (
+          getProjects().map(({ picture, link, details, id, title, technologies }) => (
             <Projects
               key={id}
               id={id}
@@ -24,6 +24,7 @@ export default function ProjectsGallery() {
               link={link}
               details={details}
               title={title}
+              technologies={technologies}
             />
           ))}
       </div>
