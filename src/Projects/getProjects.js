@@ -8,7 +8,7 @@ export default function getProjects() {
       id: "Accounting",
       title: "Accounting",
       picture: accounting,
-      details: "The first client project for an accounting and booking office. It Is a statice website, build in React using React Stateful Components, Destructuring and Boostrap at the CSS side. The website presents the advisory and accounting services of the accounting office.",
+      details: "The first client project for an accounting and booking office. It Is a statice website, build in React using React Stateful Components, Destructuring and Boostrap at the CSS side. The website presents the advisory and accounting services of the accounting office. (Ongoing)",
       link: "https://countify.vercel.app/",
       technologies: "ReactJS, JavaScript, HTML5, CSS3, Boostrap"
     },
