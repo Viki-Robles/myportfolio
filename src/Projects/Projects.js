@@ -1,10 +1,11 @@
 import React from "react";
 import "./Projects.css";
+import webIcon from "./images/web.png";
 
-export default function Projects({ picture, details, link, title, technologies }) {
+export default function Projects({ picture, details, link, technologies }) {
 
   return (
-    <>
+  
       <div className="projects-container">
         <div className="projects-picture">
           <img
@@ -13,17 +14,19 @@ export default function Projects({ picture, details, link, title, technologies }
             className="picture_icon"
           />
         </div>
-        <div className="projects-link">
-          <h4>{title}</h4>
-          <div className="projects-details">
-            <p>{details}</p>
-          </div>
-          <h4 className="technologies">Technologies: {technologies}</h4>
-          <a href={link}
-            target="_blank"
-            rel="noopener noreferrer">Visit Site</a>
+        <div className="projects-content">
+          <p>{details}</p>
+          <p>
+            Technologies: {technologies}
+          </p>
         </div>
-      </div>
-    </>
+          <div className="projects-info-box">
+          <img src={webIcon} className="projects-icon"/>
+          <a href={link}
+          target="_blank"
+          rel="noopener noreferrer">Visit Site</a>
+          </div>
+        </div>
+
   );
 }
