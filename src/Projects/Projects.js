@@ -6,7 +6,7 @@ export default function Projects({ picture, details, link, technologies }) {
 
   return (
   
-      <div className="projects-container">
+      <div className="projects-container" data-aos="fade-left">
         <div className="projects-picture">
           <img
             src={picture}

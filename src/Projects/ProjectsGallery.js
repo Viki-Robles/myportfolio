@@ -12,7 +12,7 @@ export default function ProjectsGallery() {
   return (
     <>
       <Menu />
-      <h2 className="projects-header">Project Work</h2>
+      <h2 className="projects-header" data-aos="fade-in">Project Work</h2>
       <div className="projects">
         {
           getProjects().map(({ picture, link, details, id, title, technologies }) => (
