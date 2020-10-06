@@ -31,6 +31,10 @@ export default function About() {
             started coding in my free time as a hobby on the side and has now become a fully flegded passion.
             Recently I enrolled in a 8 week Bootcamp to develop my skills and envelop myself in this world.
             Coding is stimulating, I love the challenge, the intricacies and aspire to go on and be the best in my field.</p>
+            <p className="about-container-items-p">Currently I am working as a Frontend Engineer at HelloHub and Brezaa Dating App, where my main
+              responsibility is to build their new company's website, create Sign-In - Sign Up forms with Firebase,
+              Test API endpoints with Mocha and Chai.
+            </p>
           </section>
           <div className="about-container-icons">
             <img src={workshop} alt="" />
@@ -50,11 +54,11 @@ export default function About() {
               <div className="knowledge">
                 <h2 className="knowledge-title">Knowledge</h2>
                 <p className="knowledge-list">JavaScript, ReactJS, NodeJS<br /> Express,
-                HTML5, CSS, Agile<br /> UI Design</p>
+                HTML5, CSS, Material UI, NextJS</p>
               </div>
               <div className="tools">
                 <h2 className="tools-title">Tools</h2>
-                <p className="tools-list">Git, Trello, Heroku, ZEIT</p>
+                <p className="tools-list">Git, Trello, Heroku, ZEIT, Jira, Asana</p>
               </div>
             </div>
           </section>

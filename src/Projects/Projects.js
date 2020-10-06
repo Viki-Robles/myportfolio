@@ -1,5 +1,4 @@
 import React from "react";
-import "./Projects.css";
 import webIcon from "./images/web.png";
 import { makeStyles } from '@material-ui/core/styles';
 import CardHeader from '@material-ui/core/CardHeader';
@@ -15,9 +14,11 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { Grid, Card } from '@material-ui/core';
 import clsx from 'clsx';
 import Link from '@material-ui/core/Link';
+import './Projects.css';
 
 const useStyles = makeStyles((theme) => ({
   expand: {
+    color:'#00fd97',
     transform: 'rotate(0deg)',
     marginLeft: 'auto',
     transition: theme.transitions.create('transform', {
@@ -30,6 +31,24 @@ const useStyles = makeStyles((theme) => ({
   picture: {
     height: 0,
     paddingTop: '56.25%', // 16:9
+  },
+  title: {
+    backgroundColor:'#2A2E35',
+    color:'#00fd97'
+  },
+  details: {
+    backgroundColor:'#2A2E35',
+    color:'#b2becd'
+  },
+  cardContent: {
+    backgroundColor:'#2A2E35',
+    color:'#b2becd'
+  },
+  link: {
+    color:'#00fd97'
+  },
+  cardActions: {
+    backgroundColor:'#2A2E35'
   }
 }));
 
@@ -52,7 +71,7 @@ export default function Projects({ picture, details, link, technologies, title }
           <CardContent className={classes.details}>
             <Typography component="p" variant="body2">{details}</Typography>
           </CardContent>
-          <CardActions disableSpacing>
+          <CardActions disableSpacing className={classes.cardActions}>
             <IconButton
               className={clsx(classes.expand, {
                 [classes.expandOpen]: expanded,
@@ -64,10 +83,10 @@ export default function Projects({ picture, details, link, technologies, title }
             </IconButton>
           </CardActions>
           <Collapse in={expanded} timeout="auto" unmountOnExit>
-            <CardContent>
+            <CardContent className={classes.cardContent}>
               <Typography>{technologies}</Typography>
               <Typography className={classes.link}>
-                <Link href={link} onClick={preventDefault} target="_blank">
+                <Link href={link} onClick={preventDefault} target="_blank" className={classes.link}>
                   Visit Site
                 </Link>
               </Typography>

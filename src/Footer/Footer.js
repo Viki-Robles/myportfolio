@@ -1,5 +1,5 @@
 import React from "react";
-import linkedinImage from '../Footer/Images/linkedin.png';
+import linkedinImage from '../Footer/Images/linkedin.svg';
 import githubImage from '../Footer/Images/github.png';
 import './Footer.css';
 

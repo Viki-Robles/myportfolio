@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./Menu.css";
-import homeIcon from "./MenuIcons/homeIcon.png";
-import aboutIcon from "./MenuIcons/aboutIcon.png";
-import eyeIcon from "./MenuIcons/eyeIcon.png";
+import homeIcon from "./MenuIcons/home.svg";
+import aboutIcon from "./MenuIcons/person.svg";
+import eyeIcon from "./MenuIcons/eye.svg";
 import MenuButton from "./MenuButton/MenuButton";
 import { Link } from "react-router-dom";
 import Footer from '../Footer/Footer';
-import mail from "./MenuIcons/mail.png";
+import mail from "./MenuIcons/mail.svg";
 
 
 export default class Menu extends Component {
