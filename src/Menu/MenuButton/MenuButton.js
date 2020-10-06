@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Menu.css";
-import menulogo from '../MenuIcons/menulogo.png';
+import menulogo from '../MenuIcons/menu.svg';
 
 
 export default function MenuButton({ isExpanded, onButtonClicked }) {

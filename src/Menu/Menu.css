@@ -58,6 +58,10 @@
   display: none;
 }
 
+.mail {
+  display: none;
+}
+
 @media (min-width: 600px) {
   .Menu {
     width: 60px;
