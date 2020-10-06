@@ -40,7 +40,7 @@ transform-origin: center top;
 }
 
 h1 span:nth-child(7) {
-  color: #b4f5f0;
+  color: #00fd97;
   font-size: 50px;
   animation: animate 6s infinite;
   display: inline-block;
@@ -82,10 +82,10 @@ h4 {
 .homepage-button {
   padding: 15px 22px;
   background-color: #222;
-  color: #b4f5f0;
+  color: #00fd97;
   font-size: 10px;
   font-weight: 300;
-  border-color: #b4f5f0;
+  border-color: #00fd97;
   margin-top: 30px;
   margin-bottom: 60px;
 }
@@ -143,10 +143,10 @@ h4 {
   .homepage-button {
     padding: 15px 30px;
     background-color: #222;
-    color: #b4f5f0;
+    color: #00fd97;
     font-size: 15px;
     font-weight: 300;
-    border-color: #b4f5f0;
+    border-color: #00fd97;
     margin-top: 20px;
     margin-bottom: 50px;
   }
@@ -157,7 +157,7 @@ h4 {
   }
 
   .bracket {
-    color: #b4f5f0;
+    color: #00fd97;
     font-size: 70px;
     font-weight: 200;
   }
@@ -180,7 +180,7 @@ h4 {
 }
 
 h1 span:nth-child(7) {
-  color: #b4f5f0;
+  color: #00fd97;
   font-size: 80px;
   animation: animate 6s infinite;
   display: inline-block;

@@ -31,7 +31,7 @@
   overflow: hidden;
   text-align: center;
   height: 60px;
-  background: #181818;
+  background: #2A2E35;
   width: 100%;
   justify-content: space-evenly;
   z-index: 4;
@@ -54,7 +54,7 @@
 .Menu-link .work,
 .aboutpage,
 .home,
-.mail {
+.mail:hover {
   display: none;
 }
 
@@ -65,7 +65,7 @@
     position: absolute;
     top: 0;
     z-index: 3;
-    background: #181818;
+    background: #2A2E35;
     margin-left: 0;
     position: fixed;
   }
@@ -96,7 +96,7 @@
 
   .logo {
     font-size: 40px;
-    color: #b4f5f0;
+    color: #00fd97;
     z-index: 6;
     position: absolute;
     margin-left: 15px;
@@ -111,7 +111,7 @@
   .aboutpage,
   .work,
   .mail {
-    color: #b4f5f0;
+    color: #00fd97;
   }
   .Menu-link .mail,
   .work,
