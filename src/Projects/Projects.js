@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor:'#2A2E35',
     color:'#b2becd'
   },
-  link: {
+  linkRoot: {
     color:'#00fd97'
   },
   cardActions: {
@@ -55,6 +55,11 @@ const useStyles = makeStyles((theme) => ({
 export default function Projects({ picture, details, link, technologies, title }) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
+
+  // const onSubmitHandler = (event) => {
+  //   event.preventDefault();
+  //   history.push('/')
+  // }
   const preventDefault = (event) => event.preventDefault();
   console.log('link', preventDefault)
 
@@ -86,7 +91,7 @@ export default function Projects({ picture, details, link, technologies, title }
             <CardContent className={classes.cardContent}>
               <Typography>{technologies}</Typography>
               <Typography className={classes.link}>
-                <Link href={link} onClick={preventDefault} target="_blank" className={classes.link}>
+                <Link href={link} onClick={preventDefault} target="_blank" className={classes.linkRoot}>
                   Visit Site
                 </Link>
               </Typography>
