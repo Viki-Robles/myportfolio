@@ -15,6 +15,8 @@ import { Grid, Card } from '@material-ui/core';
 import clsx from 'clsx';
 import Link from '@material-ui/core/Link';
 import './Projects.css';
+import Button from '@material-ui/core/Button';
+
 
 const useStyles = makeStyles((theme) => ({
   expand: {
@@ -91,9 +93,9 @@ export default function Projects({ picture, details, link, technologies, title }
             <CardContent className={classes.cardContent}>
               <Typography>{technologies}</Typography>
               <Typography className={classes.link}>
-                <Link href={link} onClick={preventDefault} target="_blank" className={classes.linkRoot}>
-                  Visit Site
-                </Link>
+              <Button variant="contained" color="primary" href={link} target="_blank">
+                Visit Site
+              </Button>
               </Typography>
             </CardContent>
           </Collapse>
