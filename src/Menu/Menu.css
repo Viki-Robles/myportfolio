@@ -86,7 +86,7 @@
 
   .Menu-link {
     margin: 5px;
-    display: block;
+    display: flex;
   }
 
   .Menu-link .icon {
@@ -108,7 +108,7 @@
   }
 
   .Menu-link:hover img {
-    display: none;
+    display: block;
   }
 
   .home,
@@ -119,14 +119,20 @@
   }
   .Menu-link .mail,
   .work,
-  .aboutpage,
+  .aboutpage, 
   .home {
     display: none;
   }
 
-  .Menu-link:hover .home {
+  .Menu-link:hover 
+  .home {
+    padding:5px;
+    position: absolute;
     display: block;
-    margin-left: 1vh;
+    margin-left: 5vh;
+    border: 1px solid #00fd97;
+    border-radius: 2px;
+    margin-top: -4vh;
     font-size: 14px;
     font-weight: 150;
   }
@@ -134,18 +140,36 @@
     display: block;
     font-weight: 150;
     font-size: 14px;
-    margin-left: 1vh;
+    padding:5px;
+    position: absolute;
+    display: block;
+    margin-left: 5vh;
+    border: 1px solid #00fd97;
+    border-radius: 2px;
+    margin-top: -4vh;
   }
   .Menu-link:hover .work {
     display: block;
     font-size: 14px;
     font-weight: 150;
-    margin-left: 1vh;
+    padding:5px;
+    position: absolute;
+    display: block;
+    margin-left: 5vh;
+    border: 1px solid #00fd97;
+    border-radius: 2px;
+    margin-top: -4vh;
   }
   .Menu-link:hover .mail {
     display: block;
     font-weight: 150;
     font-size: 14px;
-    margin-left: 1vh;
+    padding:5px;
+    position: absolute;
+    display: block;
+    margin-left: 5vh;
+    border: 1px solid #00fd97;
+    border-radius: 2px;
+    margin-top: -4vh;
   }
 }
