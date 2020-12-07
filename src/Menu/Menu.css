@@ -127,9 +127,9 @@
   .Menu-link:hover 
   .home {
     padding:5px;
-    position: absolute;
+    /* position: absolute; */
     display: block;
-    margin-left: 5vh;
+    margin-left: 7vh;
     border: 1px solid #00fd97;
     border-radius: 2px;
     margin-top: -4vh;
@@ -143,7 +143,7 @@
     padding:5px;
     position: absolute;
     display: block;
-    margin-left: 5vh;
+    margin-left: 7vh;
     border: 1px solid #00fd97;
     border-radius: 2px;
     margin-top: -4vh;
@@ -155,7 +155,7 @@
     padding:5px;
     position: absolute;
     display: block;
-    margin-left: 5vh;
+    margin-left: 7vh;
     border: 1px solid #00fd97;
     border-radius: 2px;
     margin-top: -4vh;
@@ -167,7 +167,7 @@
     padding:5px;
     position: absolute;
     display: block;
-    margin-left: 5vh;
+    margin-left: 7vh;
     border: 1px solid #00fd97;
     border-radius: 2px;
     margin-top: -4vh;
