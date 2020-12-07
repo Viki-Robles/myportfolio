@@ -1,19 +1,15 @@
 import React from "react";
-import webIcon from "./images/web.png";
 import { makeStyles } from '@material-ui/core/styles';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
-import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { Grid, Card } from '@material-ui/core';
 import clsx from 'clsx';
-import Link from '@material-ui/core/Link';
 import './Projects.css';
 import Button from '@material-ui/core/Button';
 
