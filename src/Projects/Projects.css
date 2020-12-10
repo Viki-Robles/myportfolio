@@ -9,20 +9,19 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     width: 80%;
   }
   
   @media (min-width: 600px) {
     .projects {
-      margin-left: 80px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       height: 50%;
     }
   
     .projects-header {
-      margin-left: 80px;
+      margin-left: 100px;
       margin-top:40px;
     }
   }

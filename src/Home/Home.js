@@ -11,6 +11,7 @@ export default function Home(props) {
   }, []);
   return (
     <>
+   
     <div className="homePage-container" data-aos="fade-in">
       <div className="homePage-picture">
         <img src={homepicture} alt="homepicture" data-aos="fade-right"/>
@@ -40,9 +41,7 @@ export default function Home(props) {
       </div>
       </div>
     </div>
+  
     </>
   );
 }
-
-/**          <span> &#120121;</span>
- */
