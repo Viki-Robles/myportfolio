@@ -5,7 +5,6 @@ import hellohub from "../Projects/images/hellohub.png";
 import webdesign from "../Projects/images/wedesign.png";
 import breza from "../Projects/images/breza.png";
 
-
 export default function getProjects() {
   return [
     {
