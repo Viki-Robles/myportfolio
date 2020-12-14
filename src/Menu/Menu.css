@@ -90,9 +90,11 @@
   transition: var(--transition-speed);
 }
 
+
 .navbar:hover .logo svg {
   transform: rotate(-180deg);
 }
+
 
 /* Small screens */
 @media only screen and (max-width: 600px) {
@@ -110,13 +112,15 @@
     flex-direction: row;
   }
 
+
   .nav-link {
     justify-content: center;
-  }
+
 
   main {
     margin: 0;
   }
+
 }
 
 /* Large screens */
@@ -143,7 +147,6 @@
   .navbar:hover .logo-text
   {
     left: 0px;
-  }
 }
 
 
