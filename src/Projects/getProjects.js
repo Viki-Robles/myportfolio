@@ -36,7 +36,7 @@ export default function getProjects() {
       title: "Create Studio",
       picture: webdesign,
       details: "A front-end website using Gatsby Framework",
-      link: "/",
+      link: "https://webdesign-tau.vercel.app/",
       technologies: "Gatsby, JavaScript, Material UI"
     },
     {
