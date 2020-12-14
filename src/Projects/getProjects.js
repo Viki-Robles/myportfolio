@@ -5,7 +5,6 @@ import hellohub from "../Projects/images/hellohub.png";
 import webdesign from "../Projects/images/wedesign.png";
 import breza from "../Projects/images/breza.png";
 
-
 export default function getProjects() {
   return [
     {
@@ -36,7 +35,7 @@ export default function getProjects() {
       id: "Create Studio",
       title: "Create Studio",
       picture: webdesign,
-      details: "A front-end development application using Gatsby Framework",
+      details: "A front-end website using Gatsby Framework",
       link: "/",
       technologies: "Gatsby, JavaScript, Material UI"
     },
