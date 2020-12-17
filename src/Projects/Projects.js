@@ -54,13 +54,6 @@ export default function Projects({ picture, details, link, technologies, title }
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
-  // const onSubmitHandler = (event) => {
-  //   event.preventDefault();
-  //   history.push('/')
-  // }
-  const preventDefault = (event) => event.preventDefault();
-  console.log('link', preventDefault)
-
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };

@@ -88,7 +88,7 @@ export default class Menu extends Component {
           </li>
 
           <li className="nav-item">
-            <Link href="/projects" className="nav-link">
+            <Link to="/projects" className="nav-link">
               <svg
                 aria-hidden="true"
                 focusable="false"
