@@ -53,7 +53,7 @@ export default function getProjects() {
       title: "HelloHub",
       picture: hellohub,
       details: "Client Project. Redesigning and rebuilding the website for HelloHub as well improving the UI of the venue application. Project Ongoing",
-      link: "https://hellohub.com/",
+      link: "https://dev.hellohub.com/",
       technologies: "ReactJS, JavaScript, Material UI"
     },
     {
