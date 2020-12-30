@@ -1,7 +1,10 @@
 .projects-header {
-    margin-left: 30px;
-    margin-top: 80px;
-   
+  color: #00fd97;
+  font-size: 6vh;
+  margin-top: 60px;
+  text-align: start;
+  margin-left: 40px;
+  margin-bottom: 40px;
   }
   
   .projects {

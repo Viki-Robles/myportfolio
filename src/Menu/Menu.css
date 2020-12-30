@@ -44,6 +44,8 @@
   display: none;
   margin-left: 1rem;
   color:white;
+  letter-spacing: 2px;
+  font-family: 'Inter','helvetica','helvetica neue';
 }
 
 .nav-link svg {

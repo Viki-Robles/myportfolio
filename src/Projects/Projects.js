@@ -31,22 +31,22 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: '56.25%', // 16:9
   },
   title: {
-    backgroundColor:'#2A2E35',
+    backgroundColor:'#17141d',
     color:'#00fd97'
   },
   details: {
-    backgroundColor:'#2A2E35',
+    backgroundColor:'#17141d',
     color:'#b2becd'
   },
   cardContent: {
-    backgroundColor:'#2A2E35',
+    backgroundColor:'#17141d',
     color:'#b2becd'
   },
   linkRoot: {
     color:'#00fd97'
   },
   cardActions: {
-    backgroundColor:'#2A2E35'
+    backgroundColor:'#17141d'
   }
 }));
 

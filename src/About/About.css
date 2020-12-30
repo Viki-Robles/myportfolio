@@ -20,13 +20,14 @@ a {
   font-weight: 300;
   color: white;
   margin-left: 10px;
+
 }
 .about-container-list p {
   font-weight: 300;
   color: white;
 }
-.about {
-  color: white;
+.section-1 h2 {
+  color: #00fd97;
   font-size: 6vh;
   font-weight: 400;
   position: relative;
@@ -38,11 +39,6 @@ a {
   margin-bottom: 100px;
 }
 
-.about span:nth-child(3) {
-  margin-left: 3vh;
-  color: #00fd97;
-  font-size: 8vh;
-}
 
 .about-container-list {
   display: grid;

@@ -19,20 +19,14 @@ export default function About() {
         <div className="about-container-items">
           <section className="section-1">
             <h2 className="about" data-aos="fade-left">
-              <span>M</span>
-              <span>y</span>
-              <span>S</span>
-              <span>t</span>
-              <span>o</span>
-              <span>r</span>
-              <span>y</span>
+              About me
             </h2>
             <p className="about-container-items-p">
             I have passion for coding and building unique UI experiences. I love the challenge, 
             the intricacies and aspire to go on and be the best in my field. 
             I enjoy learning new skills daily, and staying connected, and involved
             with my fellow developers.</p>
-            <p className="about-container-items-p">Currently I am working as a Frontend Engineer at HelloHub and Brezaa Dating App.
+            <p className="about-container-items-p">Currently working as a Frontend Engineer at HelloHub and helping small businesses with their digital image.
             </p>
           </section>
           <div className="about-container-icons">
