@@ -10,6 +10,7 @@ import Button from '@material-ui/core/Button';
 const useStyles = makeStyles((theme) => ({
   about: {
     marginLeft: '100px',
+    marginBottom:'40px',
     [theme.breakpoints.down('xs')]: {
       marginLeft: 'auto',
       padding: '10px',
@@ -56,6 +57,9 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down('xs')]: {
       margin: '0 auto'
     }
+  },
+  skills:{
+    marginTop:'20px',
   }
 }));
 export default function About() {
