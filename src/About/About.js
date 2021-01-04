@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Menu from "../Menu/Menu";
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid, Typography } from '@material-ui/core';
 import Chart from '../About/Diagram/Diagram';
 import Button from '@material-ui/core/Button';
-
+import AOS from "aos";
 
 const useStyles = makeStyles((theme) => ({
   about: {
@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '20px'
   },
   chart: {
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down('sm')]: {
       margin: '0 auto'
     }
   },
@@ -65,11 +65,20 @@ const useStyles = makeStyles((theme) => ({
 export default function About() {
   const classes = useStyles();
 
+  useEffect(() => {
+    AOS.init({ duration: 3000, 
+      delay: 650
+    });
+  }, []);
+
   return (
     <Link to="/about">
       <Menu />
       <Grid container md={12} className={classes.about} lg={12} sm={12} xs={12}>
+        <div data-aos="fade-in">
         <Typography variant='h3' className={classes.aboutTitle}>About me</Typography>
+        </div>
+        <div data-aos="fade-up">
         <Grid container md={12} className={classes.profession}>
           <Grid container md={3} lg={3} sm={12}>
             <Typography variant='h5' className={classes.typography}>
@@ -87,7 +96,10 @@ export default function About() {
           <Grid container md={9} justify='center' sm={12} className={classes.chart}>
             <Chart />
           </Grid>
+        
         </Grid>
+        </div>
+        <div data-aos="fade-down">
         <Grid container direction='column' className={classes.skills}>
           <Typography variant='h4' className={classes.skillsTitle}>Skills</Typography>
           <Grid container direction='row' className={classes.skillsContainer}>
@@ -118,6 +130,7 @@ export default function About() {
                 on ambitious projects with positive people.</Typography>
           </Grid>
         </Grid>
+        </div>
       </Grid>
     </Link>
   );
