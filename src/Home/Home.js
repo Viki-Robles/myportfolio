@@ -35,7 +35,7 @@ export default function Home(props) {
         <h4 data-aos="fade-left">
           Web Developer, based in London, who loves building digital time warps.
         </h4> 
-        <a href="mailto:vasiliki.robles@gmail.com">
+        <a href="https://meetings.hubspot.com/vasiliki-robles">
         <button className="homepage-button">Contact me</button>
         </a>
       </div>
