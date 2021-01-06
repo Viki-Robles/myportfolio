@@ -2,7 +2,7 @@ import kodflix from "../Projects/images/kodflix.png";
 import drinkmeapp2 from "../Projects/images/drinkmeapp2.png";
 import accounting from "../Projects/images/accounting.png";
 import hellohub from "../Projects/images/hellohub.png";
-import webdesign from "../Projects/images/wedesign.png";
+import webdesign from "../Projects/images/createstudio.png";
 import breza from "../Projects/images/breza.png";
 import joblist from '../Projects/images/JobList.png';
 

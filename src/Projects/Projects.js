@@ -28,7 +28,8 @@ const useStyles = makeStyles((theme) => ({
   },
   picture: {
     height: 0,
-    paddingTop: '56.25%', // 16:9
+    paddingTop: '100.25%', // 16:9
+    width:'100%'
   },
   title: {
     backgroundColor:'#17141d',
@@ -62,7 +63,6 @@ export default function Projects({ picture, details, link, technologies, title }
     <Grid container className={classes.container}>
       <Grid item className={classes.item}>
         <Card classeName={classes.card}>
-          <CardHeader title={title} className={classes.title}></CardHeader>
           <CardMedia className={classes.picture} image={picture}></CardMedia>
           <CardContent className={classes.details}>
             <Typography component="p" variant="body2">{details}</Typography>
