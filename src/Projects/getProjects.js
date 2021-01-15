@@ -17,14 +17,6 @@ export default function getProjects() {
       technologies: "ReactJS, JavaScript, HTML5, CSS3, Boostrap"
     },
     {
-      id: "Create Studio",
-      title: "Create Studio",
-      picture: webdesign,
-      details: "A front-end website using Gatsby Framework",
-      link: "https://createstudio.netlify.app/",
-      technologies: "Gatsby, JavaScript, Material UI"
-    },
-    {
       id: "HelloHub",
       title: "HelloHub",
       picture: hellohub,
@@ -56,6 +48,14 @@ export default function getProjects() {
       details: "Client Project. Building the HomePage of Brezaa - Is an ongoing project.",
       link: "https://www.brezaa.com/",
       technologies: "NextJs, TypeScript, Material UI"
+    },
+    {
+      id: "Create Studio",
+      title: "Create Studio",
+      picture: webdesign,
+      details: "A front-end website using Gatsby Framework",
+      link: "https://createstudio.netlify.app/",
+      technologies: "Gatsby, JavaScript, Material UI"
     },
     {
       id: "Kodflix",
